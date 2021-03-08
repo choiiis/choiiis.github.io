@@ -12,11 +12,11 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "aqua" # "air", "default", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "dirt", "contrast", "dark", "aqua", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko-KR"
-title                    : "choiiis-log"
+locale                   : "en-US"
+title                    : "choiiis-devlog"
 title_separator          : "-"
 subtitle                 : "subtitle"
 name                     : "choiiis"
