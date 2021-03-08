@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "dirt", "contrast", "dark", "aqua"
 locale                   : "en-US"
 title                    : "choiiis-devlog"
 title_separator          : "-"
-subtitle                 : "subtitle"
+subtitle                 : ""
 name                     : "choiiis"
 description              : "DevBlog"
 url                      : "https://choiiis.github.io"
@@ -26,8 +26,8 @@ baseurl                  : "/blog"
 repository               : "choiiis/choiiis.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "masthead_title"
-breadcrumbs              : true
+masthead_title           : ""
+breadcrumbs              : false
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
