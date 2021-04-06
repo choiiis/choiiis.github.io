@@ -12,8 +12,8 @@ $type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
-
+// @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 html {
   font-size: 12px; // change to whatever
   
