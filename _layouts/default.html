@@ -2,8 +2,6 @@
 ---
 
 <!doctype html>
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 <!--
   Minimal Mistakes Jekyll Theme 4.22.0 by Michael Rose
   Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
@@ -11,7 +9,10 @@
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
-  <head style="font-family: 'Lobster', cursive;">
+  <head>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+    </style>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
