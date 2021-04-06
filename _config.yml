@@ -25,7 +25,7 @@ url                      : "https://choiiis.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "choiiis/choiiis.github.io"
 teaser                   : "/assets/images/monster5.png"
-logo                     : "/assets/images/monster.png"
+logo                     : "/assets/images/monster5.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
