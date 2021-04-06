@@ -8,32 +8,32 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
-html {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 18px; // change to whatever
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+// @import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+// html {
+//     font-family: 'Ubuntu', sans-serif;
+//     font-size: 18px; // change to whatever
     
-    @include breakpoint($medium) {
-        font-size: 20px; // change to whatever
-    }
+//     @include breakpoint($medium) {
+//         font-size: 20px; // change to whatever
+//     }
 
-    @include breakpoint($large) {
-        font-size: 22px; // change to whatever
-    }
+//     @include breakpoint($large) {
+//         font-size: 22px; // change to whatever
+//     }
 
-    @include breakpoint($x-large) {
-        font-size: 24px; // change to whatever
-    }
-}
+//     @include breakpoint($x-large) {
+//         font-size: 24px; // change to whatever
+//     }
+// }
 
-.highlight {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2em;
-}
+// .highlight {
+//     font-family: 'Ubuntu', sans-serif;
+//     font-size: 2em;
+// }
 
-.language-plaintext {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2em;
-    background: #c0ffee;
-}
+// .language-plaintext {
+//     font-family: 'Ubuntu', sans-serif;
+//     font-size: 2em;
+//     background: #c0ffee;
+// }
