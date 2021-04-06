@@ -3,9 +3,7 @@
 --- 
 
 // https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#customizing
-$sans-serif: 'Noto Sans KR';
-$monospace: 'Ubuntu Mono';
-$type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
+
 
 @charset "utf-8";
 
@@ -15,28 +13,28 @@ $type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
 // @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 html {
-  font-size: 12px; // change to whatever
+  font-size: 18px; // change to whatever
   
   @include breakpoint($medium) {
-    font-size: 14px; // change to whatever
+    font-size: 20px; // change to whatever
   }
 
   @include breakpoint($large) {
-    font-size: 16px; // change to whatever
+    font-size: 22px; // change to whatever
   }
 
   @include breakpoint($x-large) {
-    font-size: 18px; // change to whatever
+    font-size: 24px; // change to whatever
   }
 }
 
 .highlight {
-  font-family: $monospace;
-  font-size: $type-size-4-5;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: $type-size-4-5;
 }
 
 .language-plaintext {
-  font-family: $monospace;
-  font-size: $type-size-5;
-  background: #c0ffee;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: $type-size-5;
+    background: #c0ffee;
 }
