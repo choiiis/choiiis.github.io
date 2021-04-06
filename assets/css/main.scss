@@ -2,8 +2,6 @@
 # Only the main Sass file needs front matter (the dashes are enough) 
 --- 
 
-// https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#customizing
-
 
 @charset "utf-8";
 
@@ -13,19 +11,20 @@
 // @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu');
 html {
-  font-size: 18px; // change to whatever
-  
-  @include breakpoint($medium) {
-    font-size: 20px; // change to whatever
-  }
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px; // change to whatever
+    
+    @include breakpoint($medium) {
+        font-size: 20px; // change to whatever
+    }
 
-  @include breakpoint($large) {
-    font-size: 22px; // change to whatever
-  }
+    @include breakpoint($large) {
+        font-size: 22px; // change to whatever
+    }
 
-  @include breakpoint($x-large) {
-    font-size: 24px; // change to whatever
-  }
+    @include breakpoint($x-large) {
+        font-size: 24px; // change to whatever
+    }
 }
 
 .highlight {
