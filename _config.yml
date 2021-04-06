@@ -16,16 +16,16 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
-title_separator          : "-"
+title                    : "choiiis Devlog"
+title_separator          : "&#124;"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "choiiis"
-description              : "Devlog"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "choiiis DevLog"
+url                      : "https://choiiis.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+repository               : "choiiis/choiiis.github.io"
+teaser                   : "/assets/images/main_image.jpg"
+logo                     : "/assets/images/logo_image.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -94,10 +94,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "choiiis"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "**dev LOG**"
+  location         : #"Somewhere"
   email            :
   links:
     - label: "Email"
