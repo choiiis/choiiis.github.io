@@ -95,8 +95,9 @@ analytics:
 # Site Author
 author:
   name             : "choiiis"
-  avatar           : "/assets/images/monster2.jpg"
-  bio              : "**햄초이\nHamppiness!**"
+  avatar           : "/assets/images/monster2.png"
+  bio              : "**햄초이
+                      Hamppiness!**"
   location         : #"Somewhere"
   email            :
   links:
