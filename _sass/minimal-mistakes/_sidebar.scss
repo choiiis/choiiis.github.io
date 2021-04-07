@@ -22,6 +22,7 @@
     opacity: 0.75;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
+    max-width: 130px;
 
     &:hover {
       opacity: 1;
