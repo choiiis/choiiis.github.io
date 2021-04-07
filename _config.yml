@@ -24,7 +24,7 @@ description              : "choiiis DevLog"
 url                      : "https://choiiis.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "choiiis/choiiis.github.io"
-teaser                   : "/assets/images/monster5.png"
+teaser                   : #
 logo                     : "/assets/images/monster.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -95,8 +95,8 @@ analytics:
 # Site Author
 author:
   name             : "choiiis"
-  avatar           : "/assets/images/main_image.jpg"
-  bio              : "**햄초이 햄삐니스**"
+  avatar           : "/assets/images/avatar2.jpg"
+  bio              : "**햄초이\nHamppiness!**"
   location         : #"Somewhere"
   email            :
   links:
