@@ -95,8 +95,8 @@ analytics:
 # Site Author
 author:
   name             : "choiiis"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "**햄초이**"
+  avatar           : "/assets/images/main_image.jpg"
+  bio              : "**햄초이 햄삐니스**"
   location         : #"Somewhere"
   email            :
   links:
