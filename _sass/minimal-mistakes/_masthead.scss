@@ -40,7 +40,7 @@
 }
 
 .site-logo img {
-  max-height: 2rem;
+  max-height: 2.2rem;
 }
 
 .site-title {
@@ -50,12 +50,14 @@
   -ms-flex-item-align: center;
   align-self: center;
   font-weight: bold;
+  font-size: 1.4rem;
   // z-index: 20;
 }
 
 .site-subtitle {
   display: block;
-  font-size: $type-size-8;
+  // font-size: $type-size-8;
+  font-size: 0.4rem;
 }
 
 .masthead__menu {
