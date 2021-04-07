@@ -62,7 +62,7 @@
   }
 
   img {
-    width: 500%;
+    width: 100%;
 
     &.emoji {
       width: 20px;
@@ -127,12 +127,12 @@
   }
 
   img {
-    max-width: 110px;
-    border-radius: 50%;
+    max-width: 200px;
+    border-radius: 0%;
 
     @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
+      padding: 0px;
+      border: 0px solid $border-color;
     }
   }
 }
