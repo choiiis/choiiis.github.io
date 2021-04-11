@@ -23,7 +23,7 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    font-family: $sans-serif;
+    font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
       max-width: $max-width;
@@ -87,6 +87,7 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  font-weight: bold;
 
   &--lg {
     padding-right: 2em;
