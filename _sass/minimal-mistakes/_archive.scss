@@ -28,13 +28,15 @@
 
   a[rel="permalink"] {
     position: static;
+    text-decoration: none;
   }
 }
 
 .archive__subtitle {
   margin: 1.414em 0 0.5em;
   padding-bottom: 0.5em;
-  font-size: $type-size-5;
+  font-family: 'Song Myung';
+  font-size: $type-size-4;
   color: $muted-text-color;
   border-bottom: 1px solid $border-color;
 
@@ -45,7 +47,8 @@
 
 .archive__item-title {
   margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
+  font-family: $sans-serif;
+  font-weight: 700;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -74,7 +77,8 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  font-size: 0.85em;
+  font-weight: 500;
 
   & + p {
     text-indent: 0;

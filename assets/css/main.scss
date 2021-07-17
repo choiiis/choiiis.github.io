@@ -9,3 +9,37 @@
 @import "minimal-mistakes"; // main partials
 
 @import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+
+@font-face {
+    font-family: 'NanumSquare';
+    font-weight: 400;
+    src: url(/assets/css/fonts/NanumSquareR.eot);
+    src: url(/assets/css/fonts/NanumSquareR.eot?#iefix) format('embedded-opentype'),
+         url(/assets/css/fonts/NanumSquareR.woff) format('woff'),
+         url(/assets/css/fonts/NanumSquareR.ttf) format('truetype');
+   }
+   @font-face {
+    font-family: 'NanumSquare';
+    font-weight: 700;
+    src: url(/assets/css/fonts/NanumSquareB.eot);
+    src: url(/assets/css/fonts/NanumSquareB.eot?#iefix) format('embedded-opentype'),
+         url(/assets/css/fonts/NanumSquareB.woff) format('woff'),
+         url(/assets/css/fonts/NanumSquareB.ttf) format('truetype');
+   }
+   @font-face {
+    font-family: 'NanumSquare';
+    font-weight: 800;
+    src: url(/assets/css/fonts/NanumSquareEB.eot);
+    src: url(/assets/css/fonts/NanumSquareEB.eot?#iefix) format('embedded-opentype'),
+         url(/assets/css/fonts/NanumSquareEB.woff) format('woff'),
+         url(/assets/css/fonts/NanumSquareEB.ttf) format('truetype');
+   }
+   @font-face {
+    font-family: 'NanumSquare';
+    font-weight: 300;
+    src: url(/assets/css/fonts/NanumSquareL.eot);
+    src: url(/assets/css/fonts/NanumSquareL.eot?#iefix) format('embedded-opentype'),
+         url(/assets/css/fonts/NanumSquareL.woff) format('woff'),
+         url(/assets/css/fonts/NanumSquareL.ttf) format('truetype');
+   }
+   

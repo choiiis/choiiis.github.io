@@ -95,9 +95,9 @@ analytics:
 # Site Author
 author:
   name             : "choiiis"
-  avatar           : "/assets/images/monster4.png"
-  bio              : "**Hamppiness!**"
-  location         : #"Somewhere"
+  avatar           : "/assets/images/avthm.jpg"
+  bio              : "Hamppiness!"
+  location         : "Seoul, Korea"
   email            :
   links:
     - label: "Email"
