@@ -10,7 +10,8 @@ $doc-font-size: 16 !default;
 
 /* paragraph indention */
 $paragraph-indent: false !default; // true, false (default)
-$indent-var: 1.3em !default;
+// $indent-var: 1.3em !default;
+$indent-var: 0.7lem !default;
 
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
@@ -154,8 +155,9 @@ $max-width: $x-large !default;
    Grid
    ========================================================================== */
 
-$right-sidebar-width-narrow: 200px !default;
-$right-sidebar-width: 250px !default;
+/* changed right sidebar width 200 -> 240, 250 -> 280 */
+$right-sidebar-width-narrow: 240px !default;
+$right-sidebar-width: 280px !default;
 $right-sidebar-width-wide: 400px !default;
    // $right-sidebar-width-narrow: 150px !default;
    // $right-sidebar-width: 250px !default;

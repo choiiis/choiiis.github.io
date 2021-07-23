@@ -506,14 +506,17 @@
 .toc {
   font-family: $sans-serif-narrow;
   color: $gray;
-  background-color: $background-color;
+  // background-color: $background-color;
+  background-color: darkolivegreen;
   border: 1px solid $border-color;
   border-radius: $border-radius;
   -webkit-box-shadow: $box-shadow;
   box-shadow: $box-shadow;
 
   .nav__title {
-    color: #fff;
+    // color: #fff;
+    /* change Right Navigation title 'On this page' color */
+    color: black;
     font-size: $type-size-6;
     background: $primary-color;
     border-top-left-radius: $border-radius;
