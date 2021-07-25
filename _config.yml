@@ -21,7 +21,7 @@ title_separator          : "&#124;"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "choiiis"
 description              : "choiiis DevLog"
-url                      : "https://choiiis.github.io/"
+url                      : "https://choiiis.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "choiiis/choiiis.github.io"
 teaser                   : #
