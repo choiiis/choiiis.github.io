@@ -13,7 +13,8 @@ body {
   padding: 0;
   color: $text-color;
   font-family: $global-font-family;
-  line-height: 1.5;
+  // line-height: 1.5;
+  line-height: 1.85;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -28,8 +29,8 @@ h4,
 h5,
 h6 {
   // margin: 2em 0 0.5em;
-  margin: 1.5em 0 0.5em;
-  line-height: 1.2;
+  margin: 3.5em 0 0.8em 0;
+  line-height: 1.7;
   font-family: $header-font-family;
   font-weight: bold;
 }
@@ -65,7 +66,8 @@ small,
 }
 
 p {
-  margin-bottom: 1.3em;
+  // margin-bottom: 1.3em;
+  margin-bottom: 1.6em;
 }
 
 u,
@@ -127,6 +129,7 @@ blockquote {
 /* links */
 
 a {
+  line-height: 1.5;
   &:focus {
     @extend %tab-focus;
   }

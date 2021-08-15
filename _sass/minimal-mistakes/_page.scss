@@ -72,7 +72,7 @@ body {
 .page__title {
   margin-top: 0;
   // line-height: 1;
-  line-height: 1.3;
+  line-height: 1.5;
   font-size: $type-size-3;
 
   & + .page__meta {
@@ -87,6 +87,8 @@ body {
 }
 
 .page__content {
+  // line-height: 1.85;
+
   h2 {
     padding-bottom: 0.3em;
     border-bottom: 1px solid $border-color;
