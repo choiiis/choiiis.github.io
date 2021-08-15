@@ -269,6 +269,14 @@ compress_html:
   ignore:
     envs: development
 
+# Analytics
+analytics:
+  provider: "google-gtag"
+  # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id: "G-RB5HCLB3C2"
+    anonymize_ip: # true, false (default)
+
 
 # Defaults
 defaults:
