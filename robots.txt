@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
+
 Sitemap: https://choiiis.github.io/sitemap.xml
