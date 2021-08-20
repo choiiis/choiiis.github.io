@@ -17,7 +17,7 @@ last_modified_at: 2021-08-16
 #   changefreq : daily
 #   priority : 1.0
 ---
-![post main image](/assets/images/posts_img/ml-1/ml-1-1_7.png)
+![post main image](/assets/images/posts_img/machine-learning-1/ml-1-1_7.png)
 *velog -> github 블로그로 옮기면서 동일 게시글 업로드
 
 ## 🦥 dlib으로 랜드마크 검출 & json 저장
@@ -32,13 +32,13 @@ dlib 파일은 없으면 여기서 다운로드<br>
 [https://pypi.org/project/dlib/](https://pypi.org/project/dlib/)
 
 <!-- <img src="../assets/images" width="300"> -->
-![dlib lanmarks](/assets/images/posts_img/ml-1/ml-1-2.png)
+![dlib lanmarks](/assets/images/posts_img/machine-learning-1/ml-1-2.png)
 <br> 이렇게 68개의 점 검출됨! 각 점의 좌표값을 json으로 저장할 예정
 
 ### **2. pycharm에 opencv-python 라이브러리 추가**
 `File-Settings-Project:프로젝트명-Project Interpreter`에서 오른쪽에 있는 `+` 버튼 누르고<br>
 `opencv-python` 검색해서 `install`<br>
-![opencv library](/assets/images/posts_img/ml-1/ml-1-3.png)
+![opencv library](/assets/images/posts_img/machine-learning-1/ml-1-3.png)
 
 ### **3. dlib 라이브러리 설치 시도 1**
 pycharm에서 anaconda 가상환경 쓰고 있는데, dlib 설치하려고 했더니 에러가 떴다.
@@ -49,15 +49,15 @@ cmake와 dlib 설치 파일 통해서 해결하는 방법이 있어서 이거로
 이 방법에서 처음으로 해야하는 것은 cmake 설치와 환경 변수 설정
 <br>`윈도우 버튼에서 우클릭` - `시스템` - `고급 시스템 설정` - `환경 변수` 에서
 시스템 변수 Path에 "C:\Program Files\CMake\bin" 추가<br>
-![cmake path](/assets/images/posts_img/ml-1/ml-1-4.png)
+![cmake path](/assets/images/posts_img/machine-learning-1/ml-1-4.png)
 
 ### 5. **dlib 라이브러리 설치 시도 2**
 아까 다운로드한 dlib 파일은 원하는 위치에 압축을 푼다.
 cmd 창을 실행하고, dlib 디렉토리로 이동한다.
 C:\User\...\dlib-19.19>``python setup.py install`` 를 입력하면, 디렉토리에 있는setup.py 파일 실행되면서 dlib 라이브러리가 설치된다!!!!<br>
-![dlib install1](/assets/images/posts_img/ml-1/ml-1-5.png)
+![dlib install1](/assets/images/posts_img/machine-learning-1/ml-1-5.png)
 Pycharm Interpreter 가보면 dlib 추가된 것 확인할 수 있음 (존재하던 환경이라 이미지 안에 본 프로젝트와 관계 없는 라이브러리도 있음)<br>
-![dlib install2](/assets/images/posts_img/ml-1/ml-1-6.png)
+![dlib install2](/assets/images/posts_img/machine-learning-1/ml-1-6.png)
 
 
 ### 6. dlib 학습 모델 데이터 다운로드
@@ -65,7 +65,7 @@ Pycharm Interpreter 가보면 dlib 추가된 것 확인할 수 있음 (존재하
 다운로드 해서 프로젝트 폴더에 압축을 푼다.
 
 ### 7. 입력한 동영상에서 facial landmark detection
-![project example](/assets/images/posts_img/ml-1/ml-1-1_7.png)
+![project example](/assets/images/posts_img/machine-learning-1/ml-1-1_7.png)
 free video 다운 받아서 실행시켜봤다. 동영상에서 꽤 정확하게 끝까지 잘 잡히는 것을 확인할 수 있었다. VideoCapture 객체 생성할 때 0 넣어주면 웹캠으로 실시간 얼굴 랜드마크 검출도 가능함.
 
 ```python

@@ -17,7 +17,7 @@ last_modified_at: 2021-08-16
 #   changefreq : daily
 #   priority : 1.0
 ---
-![post main image](/assets/images/posts_img/ml-2/ml-2-3.png)
+![post main image](/assets/images/posts_img/machine-learning-2/ml-2-3.png)
 
 *velog -> github 블로그로 옮기면서 동일한 게시글 업로드
 
@@ -30,10 +30,10 @@ last_modified_at: 2021-08-16
 
 'left.json', 'right.json'으로 왼쪽 저작 영상, 오른쪽 저작 영상을 따로 저장했다. 오늘은 저장한 데이터를 가시화하여 분석할 수 있도록 만드는데에 시간을 씀. 아래와 같은 dataframe을 만들어서 저장했다.
 
-![dataframe](/assets/images/posts_img/ml-2/ml-2-1.png)
+![dataframe](/assets/images/posts_img/machine-learning-2/ml-2-1.png)
 
 사실 처음에는 dataframe으로 하지 않고 중첩 리스트로 만들었다. count행 68열로 만들었는데, 시각화를 하기 위해서 그림을 그리려면 dataframe을 활용해야 했고, dataframe에서 column index로 x, y축을 정하기 때문에 위와 같은 형태로 수정했다. 처음에 리스트로 구현해서 가시화 한 것이 아래 그림이다.
-![dlib graph 1](/assets/images/posts_img/ml-2/ml-2-2.png)
+![dlib graph 1](/assets/images/posts_img/machine-learning-2/ml-2-2.png)
 
 
 <br>dataframe으로 변경하고, column명도 추가해주고 나서 시각화시켜보았다.
@@ -51,13 +51,13 @@ plt.show()
 ```
 
 boxplot을 출력한 결과는 아래와 같았다.
-![dlib graph 2](/assets/images/posts_img/ml-2/ml-2-3.png)
-![dlib graph 3](/assets/images/posts_img/ml-2/ml-2-4.png)
+![dlib graph 2](/assets/images/posts_img/machine-learning-2/ml-2-3.png)
+![dlib graph 3](/assets/images/posts_img/machine-learning-2/ml-2-4.png)
 
 
 아직 정확하게 분석해보지는 않았지만, 뭔가 딱 봤을 떄 x축 방향 보다는 y축 방향의 좌표가 흩어져 있는 정도의 차이가 크고, 내가 예상했던 하관쪽에서의 움직임이 발생한 것을 볼 수 있었다.
 
-![dlib facial landmarks](/assets/images/posts_img/ml-2/ml-2-5.png)
+![dlib facial landmarks](/assets/images/posts_img/machine-learning-2/ml-2-5.png)
 
 
 5-12(턱 쪽), 50~60(입) 쪽 변화가 확연하게 큰게 보인다. 근데 49~67, 즉 입쪽에서 왼쪽 부분의 변화가 적은데 이게 내가 씹는 것에 문제가 있는 건지 뭔지 모르겠다..
