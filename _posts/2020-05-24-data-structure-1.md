@@ -1,23 +1,23 @@
 ---
 title:  "[자료구조] 배열(Array)과 리스트(List)"
-excerpt: "내가 보려고 적는 자료구조 정리 : 배열(Array)과 리스트(List)"
+excerpt: "배열과 연결 리스트의 특징, 시간 복잡도, 장점, 단점, 그리고 사용하는 경우"
 
 categories:
-  - data-structure
+  - Data Structure
 tags:
   - [Data Structure, C++]
 
 toc: true
 toc_sticky: true
  
-date: 2021-07-17
+date: 2020-05-24
 last_modified_at: 2021-08-17
 
 # sitemap :
 #   changefreq : daily
 #   priority : 1.0
 ---
-*velog -> github 블로그로 옮기면서 동일한 게시글 업로드
+*velog -> github 블로그로 옮기면서 동일 게시글 업로드
 
 내가 보려고 적는 자료구조 정리
 공부하면서 계속 추가하기
