@@ -8,9 +8,9 @@ layout: null
     <url>
       <loc>{{ site.url }}{{ post.url }}</loc>
       {% if post.lastmod == null %}
-        <lastmod>{{ post.date }}</lastmod>
+        <lastmod>{{ post.date | date: "%F" }}</lastmod>
       {% else %}
-        <lastmod>{{ post.lastmod }}</lastmod>
+        <lastmod>{{ post.lastmod | date: "%F" }}</lastmod>
       {% endif %}
     </url>
   {% endfor %}
