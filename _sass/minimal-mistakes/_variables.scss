@@ -18,9 +18,9 @@ $serif: Georgia, Times, serif !default;
 // $sans-serif: -apple-system, BlinkMacSystemFont, "Song Myung", "Roboto", "Segoe UI",
 // $sans-serif: "NanumSquare", "Roboto", "Segoe UI",
 //   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$sans-serif: "RIDIBatang", "Roboto", "Segoe UI",
+$sans-serif: -apple-system, "RIDIBatang", "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+$monospace: "Fira Mono", Monaco, Consolas, "Lucida Console", monospace !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
