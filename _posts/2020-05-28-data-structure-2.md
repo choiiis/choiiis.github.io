@@ -7,6 +7,8 @@ categories:
 tags:
   - [Data Structure, C++]
 
+permalink: /data-structure/basics-of-stack-queue-and-deque/
+
 toc: true
 toc_sticky: true
  

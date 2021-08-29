@@ -7,8 +7,9 @@ categories:
 tags:
   - [Android, 세차새차]
 
-toc: true
-toc_sticky: true
+permalink: /android/useful-websites-related-to-scsc-project/
+
+toc: false # 오른쪽 navigation 제거
  
 date: 2020-07-29
 last_modified_at: 2021-08-21

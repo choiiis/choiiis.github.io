@@ -7,6 +7,8 @@ categories:
 tags:
   - [Machine Learning, Python, dlib]
 
+permalink: /machine-learning/detect-facial-landmarks-with-dlib-and-save-as-json/
+
 toc: true
 toc_sticky: true
  

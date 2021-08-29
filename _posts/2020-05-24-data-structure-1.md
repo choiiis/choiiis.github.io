@@ -7,6 +7,8 @@ categories:
 tags:
   - [Data Structure, C++]
 
+permalink: /data-structure/basics-of-array-and-list/
+
 toc: true
 toc_sticky: true
  
