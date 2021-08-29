@@ -52,9 +52,9 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search                   : true
+search_full_content      : true
+search_provider          : google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -64,10 +64,10 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
+google_site_verification : "LKDXdTbkqfYcDLaxd7-n3VyPtaYjoDXQ6axWfVew_VQ"
 bing_site_verification   :
 yandex_site_verification :
-naver_site_verification  :
+naver_site_verification  : "adf9ff31fdd5483be60c146ecf49f0bb5ffc89e7"
 
 # Social Sharing
 twitter:
@@ -216,7 +216,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
-  # - jekyll-sitemap
+  - jekyll-sitemap
   - jekyll-gist
   # - jekyll-feed
   - jekyll-include-cache
@@ -224,7 +224,7 @@ plugins:
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
-  # - jekyll-sitemap
+  - jekyll-sitemap
   - jekyll-gist
   # - jekyll-feed
   - jekyll-include-cache
