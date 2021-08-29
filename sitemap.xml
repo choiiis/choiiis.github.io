@@ -1,17 +1,111 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" 
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in site.posts %}
-    <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      {% if post.lastmod == null %}
-        <lastmod>{{ post.date | date: "%F" }}</lastmod>
-      {% else %}
-        <lastmod>{{ post.lastmod | date: "%F" }}</lastmod>
-      {% endif %}
-    </url>
-  {% endfor %}
+<urlset
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	  	  
+<!-- www.check-domains.com sitemap generator -->
+
+<url>
+   <loc>https://choiiis.github.io/</loc>
+   <lastmod>2021-08-27T12:24:43+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.5</priority>
+</url>
+<url>
+   <loc>https://choiiis.github.io/page2/</loc>
+   <lastmod>2021-08-27T12:24:43+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.5</priority>
+</url>
+<url>
+   <loc>https://choiiis.github.io/android/android-project-1/</loc>
+   <lastmod>2021-08-27T12:24:43+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.5</priority>
+</url>
+<url>
+   <loc>https://choiiis.github.io/web/web-5/</loc>
+   <lastmod>2021-08-27T12:24:43+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.5</priority>
+</url>
+<url>
+   <loc>https://choiiis.github.io/machine%20learning/machine-learning-2/</loc>
+   <lastmod>2021-08-27T12:24:43+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.5</priority>
+</url>
+<url>
+   <loc>https://choiiis.github.io/data%20structure/data-structure-2/</loc>
+   <lastmod>2021-08-27T12:24:43+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.5</priority>
+</url>
+<url>
+   <loc>https://choiiis.github.io/web/web-4/</loc>
+   <lastmod>2021-08-27T12:24:43+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.5</priority>
+</url>
+<url>
+   <loc>https://choiiis.github.io/page3/</loc>
+   <lastmod>2021-08-27T12:24:43+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.5</priority>
+</url>
+<url>
+   <loc>https://choiiis.github.io/web/web-3/</loc>
+   <lastmod>2021-08-27T12:24:43+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.5</priority>
+</url>
+<url>
+   <loc>https://choiiis.github.io/web/web-2/</loc>
+   <lastmod>2021-08-27T12:24:43+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.5</priority>
+</url>
+<url>
+   <loc>https://choiiis.github.io/web/web-1/</loc>
+   <lastmod>2021-08-27T12:24:43+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.5</priority>
+</url>
+<url>
+   <loc>https://choiiis.github.io/python/python-1/</loc>
+   <lastmod>2021-08-27T12:24:43+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.5</priority>
+</url>
+<url>
+   <loc>https://choiiis.github.io/machine%20learning/machine-learning-1/</loc>
+   <lastmod>2021-08-27T12:24:43+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.5</priority>
+</url>
+<url>
+   <loc>https://choiiis.github.io/data%20structure/data-structure-1/</loc>
+   <lastmod>2021-08-27T12:24:43+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.5</priority>
+</url>
+<url>
+   <loc>https://choiiis.github.io/git/git-3/</loc>
+   <lastmod>2021-08-27T12:24:43+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.5</priority>
+</url>
+<url>
+   <loc>https://choiiis.github.io/git/git-2/</loc>
+   <lastmod>2021-08-27T12:24:43+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.5</priority>
+</url>
+<url>
+   <loc>https://choiiis.github.io/git/git-1/</loc>
+   <lastmod>2021-08-27T12:24:43+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.5</priority>
+</url>
 </urlset>
