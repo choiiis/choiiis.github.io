@@ -18,9 +18,6 @@ last_modified_at: 2021-08-16
 #   changefreq : daily
 #   priority : 1.0
 ---
-![post main image](/assets/images/posts_img/machine-learning-2/ml-2-3.png)
-
-*velog -> github 블로그로 옮기면서 동일한 게시글 업로드
 
 종합 설계 프로젝트 기록
 

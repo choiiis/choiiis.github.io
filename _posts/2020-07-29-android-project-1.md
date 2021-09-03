@@ -12,13 +12,11 @@ permalink: /android/useful-websites-related-to-scsc-project/
 toc: false # 오른쪽 navigation 제거
  
 date: 2020-07-29
-last_modified_at: 2021-08-21
+last_modified_at: 2021-09-03
 ---
-*velog -> github 블로그로 옮기면서 동일 게시글 업로드
 
-##🦥 안드로이드 프로젝트하면서 참고한 사이트 링크 (계속 추가)
-
-MapFragment 관련
+# 🦥 안드로이드 프로젝트 참고 사이트 링크
+## MapFragment 관련
 * 지도 GPS Tracker - 현 위치 위도, 경도 얻을 수 있음
 [https://webnautes.tistory.com/1315](https://webnautes.tistory.com/1315)
 
@@ -26,7 +24,7 @@ MapFragment 관련
 [https://navermaps.github.io/android-map-sdk/guide-ko/4-2.html](https://navermaps.github.io/android-map-sdk/guide-ko/4-2.html)
 
 
-데이터 처리 관련
+## 데이터 처리 관련
 * MySQL 비밀번호 설정
 [https://to-dy.tistory.com/58](https://to-dy.tistory.com/58)
 

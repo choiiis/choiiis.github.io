@@ -13,22 +13,21 @@ toc: true
 toc_sticky: true
  
 date: 2020-05-26
-last_modified_at: 2021-08-16
+last_modified_at: 2021-09-03
 
 # sitemap :
 #   changefreq : daily
 #   priority : 1.0
 ---
 ![post main image](/assets/images/posts_img/machine-learning-1/ml-1-1_7.png)
-*velog -> github 블로그로 옮기면서 동일 게시글 업로드
 
-## 🦥 dlib으로 랜드마크 검출 & json 저장
+# 🦥 dlib으로 랜드마크 검출 & json 저장
 
 **dlib으로 동영상에서 얼굴의 랜드마크 검출하고, 그 좌표 값을 json으로 저장하는 방법. 웹캠을 통한 실시간 얼굴 인식과 랜드마크 검출도 가능**<br>
 중간중간 막히는 부분 구글링해서 해결한 것 정리<br>
 환경 > pycharm(python3.6), dlib-19.19, cmake
 
-### **1. pycharm(python3.6), cmake 설치, dlib-19.19 파일 다운로드**
+## **1. pycharm(python3.6), cmake 설치, dlib-19.19 파일 다운로드**
 dlib 파일은 없으면 여기서 다운로드<br>
 [https://pypi.org/project/dlib/](https://pypi.org/project/dlib/)
 
@@ -36,23 +35,23 @@ dlib 파일은 없으면 여기서 다운로드<br>
 ![dlib lanmarks](/assets/images/posts_img/machine-learning-1/ml-1-2.png)
 <br> 이렇게 68개의 점 검출됨! 각 점의 좌표값을 json으로 저장할 예정
 
-### **2. pycharm에 opencv-python 라이브러리 추가**
+## **2. pycharm에 opencv-python 라이브러리 추가**
 `File-Settings-Project:프로젝트명-Project Interpreter`에서 오른쪽에 있는 `+` 버튼 누르고<br>
 `opencv-python` 검색해서 `install`<br>
 ![opencv library](/assets/images/posts_img/machine-learning-1/ml-1-3.png)
 
-### **3. dlib 라이브러리 설치 시도 1**
+## **3. dlib 라이브러리 설치 시도 1**
 pycharm에서 anaconda 가상환경 쓰고 있는데, dlib 설치하려고 했더니 에러가 떴다.
 구글링 해보니까 cmake 문제라고도 하고, whl 받아서 하라는 말도 나오고..
 cmake와 dlib 설치 파일 통해서 해결하는 방법이 있어서 이거로 선택.
 
-### **4. cmake 환경 변수 추가**
+## **4. cmake 환경 변수 추가**
 이 방법에서 처음으로 해야하는 것은 cmake 설치와 환경 변수 설정
 <br>`윈도우 버튼에서 우클릭` - `시스템` - `고급 시스템 설정` - `환경 변수` 에서
 시스템 변수 Path에 "C:\Program Files\CMake\bin" 추가<br>
 ![cmake path](/assets/images/posts_img/machine-learning-1/ml-1-4.png)
 
-### 5. **dlib 라이브러리 설치 시도 2**
+## 5. **dlib 라이브러리 설치 시도 2**
 아까 다운로드한 dlib 파일은 원하는 위치에 압축을 푼다.
 cmd 창을 실행하고, dlib 디렉토리로 이동한다.
 C:\User\...\dlib-19.19>``python setup.py install`` 를 입력하면, 디렉토리에 있는setup.py 파일 실행되면서 dlib 라이브러리가 설치된다!!!!<br>
@@ -61,11 +60,11 @@ Pycharm Interpreter 가보면 dlib 추가된 것 확인할 수 있음 (존재하
 ![dlib install2](/assets/images/posts_img/machine-learning-1/ml-1-6.png)
 
 
-### 6. dlib 학습 모델 데이터 다운로드
+## 6. dlib 학습 모델 데이터 다운로드
 [http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2)
 다운로드 해서 프로젝트 폴더에 압축을 푼다.
 
-### 7. 입력한 동영상에서 facial landmark detection
+## 7. 입력한 동영상에서 facial landmark detection
 ![project example](/assets/images/posts_img/machine-learning-1/ml-1-1_7.png)
 free video 다운 받아서 실행시켜봤다. 동영상에서 꽤 정확하게 끝까지 잘 잡히는 것을 확인할 수 있었다. VideoCapture 객체 생성할 때 0 넣어주면 웹캠으로 실시간 얼굴 랜드마크 검출도 가능함.
 
@@ -144,7 +143,7 @@ while True:
 vid_in.release()
 ```
 
-### 8. 좌표를 저장하는 json 생성하기
+## 8. 좌표를 저장하는 json 생성하기
 검출한 좌표값을 dict로 바꿔서 json으로 저장한다.
 
 ```python

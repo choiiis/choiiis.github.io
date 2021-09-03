@@ -3,7 +3,12 @@
    ========================================================================== */
 
 .masthead {
-  position: relative;
+  // position: relative;
+  // masterhead fixed
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
   border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -90,6 +95,7 @@
   list-style-type: none;
   white-space: nowrap;
   font-weight: bold;
+  
   &--lg {
     padding-right: 2em;
     font-weight: 700;
