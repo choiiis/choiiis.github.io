@@ -24,8 +24,10 @@ $border-color: mix(#fff, $background-color, 20%) !default;
 // $code-background-color: mix(#000, $background-color, 5%) !default;
 // $code-background-color: mix(rgb(78, 218, 199), $background-color, 30%) !default;
 // $code-background-color: mix(rgb(255, 233, 31), $background-color, 30%) !default;
-$code-background-color:rgba(46, 51, 46, 0.1);
-$code-background-color-dark: mix(#000, $background-color, 20%) !default;
+// $code-background-color:rgba(46, 51, 46, 0.1);
+$code-background-color:rgba(250, 226, 183, 0.5);
+$code-background-color-dark: rgba(114, 240, 41, 0.3) !default;
+
 $block-quote-background-color: rgba(114, 240, 41, 0.116) !default;
 // $form-background-color: mix(#000, $background-color, 15%) !default;
 $form-background-color: rgba(255, 255, 255, 0.527) !default;

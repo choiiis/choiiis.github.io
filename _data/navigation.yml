@@ -3,12 +3,45 @@ main:
   - title: "Home"
     url: https://choiiis.github.io/
 
-  - title: "GitHub"
-    url: https://github.com/choiiis
+  # - title: "GitHub"
+  #   url: https://github.com/choiiis
 
+  - title: "Categories"
+    url: /categories/
+    
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+# sidebar navigation (categories)
+categories:
+- title: C++
+  children:
+    - title: "C++ STL"
+      url: /categories/cpp-stl/
+    - title: "Algorithm"
+      url: /categories/algorithm/
+    - title: "Data Structure"
+      url: /categories/data-structure/
+
+- title: Web
+  children:
+    - title: "Web"
+      url: /categories/web/
+
+- title: Git
+  children:
+    - title: "Git"
+      url: /categories/git/
+
+- title: Projects
+  children:
+    - title: "Android"
+      url: /categories/android/
+    - title: "Machine Learning"
+      url: /categories/machine-learning/
+    - title: "Coding Challenge"
+      url: /categories/coding-challenege/

@@ -29,11 +29,13 @@
 
     @include breakpoint($large) {
       float: right;
-      width: calc(100% - #{$right-sidebar-width-narrow});
+      // width: calc(100% - #{$right-sidebar-width-narrow});
+      width: calc(100% - #{$left-sidebar-width-narrow});
     }
 
     @include breakpoint($x-large) {
-      width: calc(100% - #{$right-sidebar-width});
+      // width: calc(100% - #{$right-sidebar-width});
+      width: calc(100% - #{$left-sidebar-width});
     }
   }
 
@@ -340,6 +342,7 @@
      ========================================================================== */
 
 .nav__list {
+  margin-top: 2em;
   margin-bottom: 1.5em;
 
   input[type="checkbox"],
@@ -439,11 +442,22 @@
 }
 
 .nav__list .nav__items {
-  margin: 0;
-  font-size: 1.25rem;
+  margin: 1em 0 3em 0;  
+  // font-size: 1.25rem;
+  font-size: 1.5rem;
 
   a {
     color: inherit;
+    // padding: 0 0 0 0.4em;
+    padding: 0 0 0 0.6em;
+    font-size: ($type-size-6 + $type-size-5 * 4) / 5;
+    font-weight: 600;
+  }
+
+  hr {
+    margin: 0 1.5em 0.3em 0;
+    // border-top: 1.5px solid mix(#000, $background-color, 20%);
+    border-top: 2.5px solid mix($primary-color, $background-color, 60%);
   }
 
   .active {
@@ -452,6 +466,11 @@
     padding-right: 0.5em;
     font-weight: bold;
   }
+
+  .nav__total {
+    font-size: $type-size-6;
+  }
+
 
   @include breakpoint(max-width $large - 1px) {
     position: relative;
@@ -492,10 +511,12 @@
 
 .nav__sub-title {
   display: block;
-  margin: 0.5rem 0;
-  padding: 0.25rem 0;
+  // margin: 0.5rem 0;
+  margin: 1em 0 0 0;
+  // padding: 0.25rem 0;
+  padding: 0 0 0 0.3em;
   font-family: $sans-serif-narrow;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
@@ -507,7 +528,8 @@
 
 .toc {
   font-family: $sans-serif-narrow;
-  color: $gray;
+  // color: $gray;
+  color: $text-color;
   // background-color: $background-color;
   background-color:$background-color;
   // background-color: white;
@@ -549,14 +571,16 @@
   a {
     display: block;
     padding: 0.25rem 0.75rem;
-    color: $muted-text-color;
-    font-weight: bold;
+    // color: $muted-text-color;
+    color: $text-color;
+    // font-weight: bold;
     line-height: 1.5;
     // border-bottom: 1px solid $border-color;
     border-bottom: 1.5px solid mix(rgb(14, 221, 24), $background-color, 80%);
 
     &:hover {
-      color: $text-color;
+      font-weight: bold;
+      font-size: 105%;
     }
   }
 

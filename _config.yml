@@ -244,9 +244,9 @@ whitelist:
 #  - <base_path>/my-awesome-category/index.html ~> path: /\
 
 # category broken link : temporary commented out
-# category_archive:
-#   type: liquid
-#   path: /categories/
+category_archive:
+  type: liquid
+  path: /categories/
 # tag_archive:
 #   type: liquid
 #   path: /tags/
@@ -286,3 +286,5 @@ defaults:
       comments: # true
       share: true
       related: true
+      sidebar:
+        nav: "categories"

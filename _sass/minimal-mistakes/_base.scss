@@ -192,7 +192,10 @@ td > code {
   padding: 0.15rem 0.1rem 0.15rem 0.1rem;
   // font-size: 0.8em;
   font-family: 'RIDIBatang';
-  background: $code-background-color;
+  // background: $code-background-color;
+  background-color: $code-background-color-dark;
+  // color: $text-color;
+  color: $base0b;
   border-radius: 2px;
   
   &:before,
@@ -216,12 +219,22 @@ hr {
 
 ul li,
 ol li {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.2em;
+
+  p {
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
 }
 
 li ul,
 li ol {
-  margin-top: 0.5em;
+  margin-bottom: 0.2em;
+
+  p {
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
 }
 
 /*
