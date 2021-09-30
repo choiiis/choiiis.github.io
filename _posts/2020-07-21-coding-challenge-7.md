@@ -1,9 +1,9 @@
 ---
-title: "[Coding Challenge] BOJ 백준 1012 (유기농 배추)"
+title: "BOJ 백준 1012 유기농 배추 (C++)"
 excerpt: "BOJ 백준 1012 유기농 배추 문제 코드 회고"
 
 categories:
-  - Coding Challenge
+  - 코테 / 문제해결
 tags:
   - [Coding Challenge, BOJ]
 
@@ -12,14 +12,14 @@ permalink: /coding-challenge/boj-1012/
 toc: false
  
 date: 2020-07-21
-last_modified_at: 2021-09-03
+last_modified_at: 2021-09-24
 
 # sitemap :
 #   changefreq : daily
 #   priority : 1.0
 ---
 
-# BOJ 1012 풀이 코드 : BFS, DFS
+# BOJ 1012 C++ 풀이 코드 : BFS, DFS
 
 ```cpp
 #include <iostream>
@@ -94,13 +94,16 @@ int main(void) {
     return 0;
 }
 ```
+
 [github BOJ_1012](https://github.com/choiiis/1d-1c/blob/master/BOJ_1012.cpp)
 
 BFS로 풀기 : [github BOJ_1012_2](https://github.com/choiiis/1d-1c/blob/master/BOJ_1012_2.cpp)
 
 DFS로 풀기 : [github_BOJ_1012_3](https://github.com/choiiis/1d-1c/blob/master/BOJ_1012_3.cpp)
 
-``회고``
+---
+
+## 회고
 
 BFS와 DFS 모두 활용하기, BFS만, DFS만으로 풀기 이렇게 3가지로 구현을 해봤다. 
 

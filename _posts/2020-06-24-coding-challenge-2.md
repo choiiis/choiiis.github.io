@@ -1,9 +1,9 @@
 ---
-title: "[Coding Challenge] BOJ 백준 1260 (BFS, DFS)"
+title: "BOJ 백준 1260 BFS, DFS (C++)"
 excerpt: "BOJ 백준 1260 DFS와 BFS 문제 코드 회고"
 
 categories:
-  - Coding Challenge
+  - 코테 / 문제해결
 tags:
   - [Coding Challenge, BOJ]
 
@@ -12,14 +12,15 @@ permalink: /coding-challenge/boj-1260/
 toc: false
  
 date: 2020-06-24
-last_modified_at: 2021-09-03
+last_modified_at: 2021-09-24
 
 # sitemap :
 #   changefreq : daily
 #   priority : 1.0
 ---
 
-# BOJ 1260 풀이 코드 : BFS, DFS
+# BOJ 1260 C++ 풀이 코드 : BFS, DFS
+
 ```cpp
 #include <iostream>
 #include <vector>
@@ -99,8 +100,8 @@ int main(void) {
 }
 ```
 
-``회고``
+---
 
-sort 쓸 때 algorithm 추가 안해주면 비주얼에서는 돌아가는데 백준에서는 컴파일 에러난다<br>
-bfs, dfs 둘다 push 할 때 isVisited 바꿔주고, 출력도 해주기. pop에서 해주면 오류난다.<br>
-N 입력받아서 vector<int> v[N] 이렇게 하는 것도 비주얼에서는 안되는데 다른 곳에서는 된다 참고!
+## 회고
+
+sort 쓸 때 algorithm 라이브러리 추가를 안해주면 비주얼에서는 돌아가는데 백준에서는 컴파일 에러난다. BFS, DFS 둘 다 push 할 때 isVisited 변경하고 해당 원소를 출력해야 한다. **pop에서 하지 말고 push 할 때 해야 함!**

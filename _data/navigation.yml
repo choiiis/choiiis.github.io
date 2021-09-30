@@ -18,15 +18,16 @@ main:
 
 # sidebar navigation (categories)
 categories:
-- title: C++
+- title: Programming
   children:
     - title: "C++ STL"
       url: /categories/cpp-stl/
-    - title: "Algorithm"
+    - title: "알고리즘"
       url: /categories/algorithm/
-    - title: "Data Structure"
+    - title: "자료구조"
       url: /categories/data-structure/
-
+    - title: "Python"
+      url: /categories/python/
 - title: Web
   children:
     - title: "Web"
@@ -45,5 +46,5 @@ categories:
       url: /categories/android/
     - title: "Machine Learning"
       url: /categories/machine-learning/
-    - title: "Coding Challenge"
-      url: /categories/coding-challenege/
+    - title: "코테 / 문제해결"
+      url: /categories/coding-challenge/

@@ -110,6 +110,14 @@ abbr[data-original-title] {
   border-bottom: 1px dotted $text-color;
 }
 
+/* mark */
+mark {
+  background-color: $mark-highlight-color;
+  color: rgb(27, 26, 26);
+  padding: 0.2em 0.25em 0.2em 0.25em;
+  border-radius: 0.3em;
+}
+
 /* blockquotes */
 
 blockquote {
@@ -120,6 +128,7 @@ blockquote {
   padding: 0.7em 1em 0.7em 1.5em;
   // font-style: italic;
   background-color: $block-quote-background-color;
+
   border-left: 0.25em solid $primary-color;
 
   cite {
@@ -129,6 +138,11 @@ blockquote {
       content: "\2014";
       padding-right: 5px;
     }
+  }
+
+  hr {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
   }
 
   :first-child {
@@ -185,17 +199,21 @@ figcaption > code,
 td > code {
   // padding-top: 0.1rem;
   // padding-bottom: 0.1rem;
-  // font-size: 0.8em;
+  font-size: 0.85em;
   // background: $code-background-color;
   // border-radius: $border-radius;
 
-  padding: 0.15rem 0.1rem 0.15rem 0.1rem;
+  padding: 0.15em 0.05em 0.15em 0.05em;
+  margin-right: 0.1em;
   // font-size: 0.8em;
-  font-family: 'RIDIBatang';
+  // font-family: 'RIDIBatang';
+  font-family: $monospace;
+  font-weight: 500;
   // background: $code-background-color;
   background-color: $code-background-color-dark;
-  // color: $text-color;
-  color: $base0b;
+  color: $text-color;
+  
+  // color: $base0b;
   border-radius: 2px;
   
   &:before,

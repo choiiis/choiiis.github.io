@@ -25,6 +25,7 @@ published : false
 **Programming**
 
 ### C++ STL
+- Sequence Container 순차 컨테이너에 대하여
 
 ### Algorithm
 
@@ -39,9 +40,17 @@ published : false
 **GIT**
 
 ### Git
+- git commit, add, status, init
+- clone, remote
+- push, pull, fetch, merge
 
 ### GitHub Blog
-
+- 왜 velog에서 깃허브 블로그로
+- 상단 masterhead 고정
+- categories 페이지 만들기
+- sidebar navigation으로 카테고리 보여주기(게시글 수 포함)
+- 블로그 구조 변경 (sidbar, 콘텐츠, nav 사이즈 변경)
+- mark 태그
 ---
 
 **Projects**

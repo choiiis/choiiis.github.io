@@ -1,9 +1,9 @@
 ---
-title: "[Coding Challenge] BOJ 백준 7576 (토마토)"
+title: "BOJ 백준 7576 토마토 (C++)"
 excerpt: "BOJ 백준 7576 토마토 문제 코드 회고"
 
 categories:
-  - Coding Challenge
+  - 코테 / 문제해결
 tags:
   - [Coding Challenge, BOJ]
 
@@ -12,14 +12,14 @@ permalink: /coding-challenge/boj-7576/
 toc: false
  
 date: 2020-07-19
-last_modified_at: 2021-09-03
+last_modified_at: 2021-09-24
 
 # sitemap :
 #   changefreq : daily
 #   priority : 1.0
 ---
 
-# BOJ 7576 풀이 코드 : BFS
+# BOJ 7576 C++ 풀이 코드 : BFS
 
 ```cpp
 #include <iostream>
@@ -97,8 +97,11 @@ int main(void) {
     return 0;
 }
 ```
+
 [github BOJ_7576](https://github.com/choiiis/1d-1c/blob/master/BOJ_7576.cpp)
 
-``회고``
+---
+
+## 회고
 
 먼저 익은 토마토가 들어있는 칸을 큐에 넣고, 비어있는 칸의 개수를 구했다. 익은 토마토와 비어있는 칸으로 M*N 칸이 모두 채워진 경우 0을 바로 출력하고, 아닌 경우에 BFS 함수를 호출하여 며칠이 지나야 다 익는지를 계산했다. BFS를 진행하면서 배열에 방문한 날짜를 기록하고, 마지막까지 0인 칸이 없으면 마지막 방문한 노드의 배열 값을 리턴했다. 0인 칸이 남아있을 경우 -1을 리턴.

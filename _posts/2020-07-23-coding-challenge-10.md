@@ -1,9 +1,9 @@
 ---
-title: "[Coding Challenge] BOJ 백준 2583 (영역 구하기)"
+title: "BOJ 백준 2583 영역 구하기 (C++)"
 excerpt: "BOJ 백준 2583 영역 구하기 문제 코드 회고"
 
 categories:
-  - Coding Challenge
+  - 코테 / 문제해결
 tags:
   - [Coding Challenge, BOJ]
 
@@ -12,14 +12,14 @@ permalink: /coding-challenge/boj-2583/
 toc: false
  
 date: 2020-07-23
-last_modified_at: 2021-09-03
+last_modified_at: 2021-09-24
 
 # sitemap :
 #   changefreq : daily
 #   priority : 1.0
 ---
 
-# BOJ 2583 풀이 코드 : BFS
+# BOJ 2583 C++ 풀이 코드 : BFS
 
 ```cpp
 #include <iostream>
@@ -98,8 +98,11 @@ int main(void) {
     return 0;
 }
 ```
+
 [github BOJ_2583](https://github.com/choiiis/1d-1c/blob/master/BOJ_2583.cpp)
 
-``회고``
+---
 
-두 점이 주어졌을 때 두 점 사이의 배열 map의 값을 1로 입력한다. 모두 입력이 된 상태가 되면, 배열 전체를 돌면서 map의 값이 0이고 아직 방문하지 않은 노드를 시작으로 BFS를 진행하여 인접한 영역을 모두 방문하도록 한다. 이 때 방문할 때마다 cnt를 1씩 키워주어 방문한 영역의 수를 구하여 return한다. return한 값들은 모두 vector에 저장하여 vector의 size를 구하고, 저장되어 있는 값을 출력한다.
+## 회고
+
+두 점이 주어졌을 때 두 점 사이의 배열 map의 값을 1로 입력한다. 모두 입력이 되면, 배열 전체를 돌면서 map의 값이 0이고 아직 방문하지 않은 노드를 시작으로 BFS를 진행하여 인접한 영역을 모두 방문하도록 한다. 이 때 방문할 때마다 cnt를 1씩 키워주어 방문한 영역의 수를 구하여 return한다. return한 값들은 모두 vector에 저장하여 vector의 size를 구하고, 저장되어 있는 값을 출력한다.

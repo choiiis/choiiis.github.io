@@ -1,9 +1,9 @@
 ---
-title: "[Coding Challenge] BOJ 백준 2667 (단지 번호 붙이기)"
+title: "BOJ 백준 2667 단지 번호 붙이기 (C++)"
 excerpt: "BOJ 백준 2667 단지 번호 붙이기 문제 코드 회고"
 
 categories:
-  - Coding Challenge
+  - 코테 / 문제해결
 tags:
   - [Coding Challenge, BOJ]
 
@@ -12,14 +12,15 @@ permalink: /coding-challenge/boj-2667/
 toc: false
  
 date: 2020-06-26
-last_modified_at: 2021-09-03
+last_modified_at: 2021-09-24
 
 # sitemap :
 #   changefreq : daily
 #   priority : 1.0
 ---
 
-# BOJ 2667 풀이 코드 : BFS
+# BOJ 2667 C++ 풀이 코드 : BFS
+
 ```cpp
 #include <iostream>
 #include <vector>
@@ -118,6 +119,8 @@ int main(void) {
 }
 ```
 
-``회고``
+---
 
-dfs나 bfs나 속도 차이는 없었다. 그런데 vector로 하는게 배열로 하는거보다 속도가 빠름! 속도가 좀 느린 이유가 pair이나 재귀함수로 안해서인 듯하다. 경로가 아니라 탐색 자체가 포인트이기 때문에 경로 배열 만들어 줄 필요 없고, 그냥 탐색하는 노드 수를 세면 됨.
+## 회고
+
+dfs나 bfs나 속도 차이는 크게 없었다. 경로가 아니라 탐색 자체가 포인트이기 때문에 경로 배열 만들어 줄 필요 없고, 그냥 탐색하는 노드 수를 세도록 구현했다.

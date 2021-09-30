@@ -461,9 +461,9 @@
   }
 
   .active {
-    margin-left: -0.5em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    // margin-left: -0.5em;
+    // padding-left: 0.5em;
+    // padding-right: 0.5em;
     font-weight: bold;
   }
 
@@ -518,7 +518,7 @@
   font-family: $sans-serif-narrow;
   font-size: $type-size-5;
   font-weight: bold;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   border-bottom: 1px solid $border-color;
 }
 

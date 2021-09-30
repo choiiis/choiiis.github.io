@@ -8,11 +8,14 @@ figure.highlight {
   margin-bottom: 1em;
   // background: $base00;
   // background: mix($base00, #000, 95%);
-  background: rgba(0, 0, 0, 0.05);
+  // background: rgba(0, 0, 0, 0.05);
+  // background-color: rgb(240, 240, 240);
+  background-color: rgba(240, 240, 240, 0.5);
+
   color: $base05;
   font-family: $monospace;
-  font-size: $type-size-6;
-  // font-size: $type-size-7;
+  font-size: ($type-size-6 + $type-size-5) / 2;
+  // font-size: $type-size-6;
   // line-height: 1.8;
   line-height: 1.5;
   border-radius: $border-radius;

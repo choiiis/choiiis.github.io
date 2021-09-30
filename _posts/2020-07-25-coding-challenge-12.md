@@ -1,9 +1,9 @@
 ---
-title: "[Coding Challenge] BOJ 백준 7569 (토마토)"
+title: "BOJ 백준 7569 토마토 (C++)"
 excerpt: "BOJ 백준 7569 토마토 문제 코드 회고"
 
 categories:
-  - Coding Challenge
+  - 코테 / 문제해결
 tags:
   - [Coding Challenge, BOJ]
 
@@ -12,14 +12,14 @@ permalink: /coding-challenge/boj-7569/
 toc: false
  
 date: 2020-07-25
-last_modified_at: 2021-09-03
+last_modified_at: 2021-09-24
 
 # sitemap :
 #   changefreq : daily
 #   priority : 1.0
 ---
 
-# BOJ 7569 풀이 코드 : BFS
+# BOJ 7569 C++ 풀이 코드 : BFS
 
 ```cpp
 #include <iostream>
@@ -117,9 +117,12 @@ int main(void) {
     return 0;
 }
 ```
+
 [github BOJ_7569](https://github.com/choiiis/1d-1c/blob/master/BOJ_7569.cpp)
 
-``회고``
+---
+
+## 회고
 
 3차원 배열이라서 pair 대신 구조체를 활용했다. 처음부터 익은 토마토의 좌표를 큐에 넣고 큐가 빌 때까지 BFS를 진행하면 된다. 처음에 입력값을 다 배열에 넣고 배열의 값이 1인 것에 대해서 BFS를 돌리려고 했는데, 이렇게 하면
 

@@ -1,9 +1,9 @@
 ---
-title: "[Coding Challenge] BOJ 백준 2178 (미로 탐색)"
+title: "BOJ 백준 2178 미로 탐색 (C++)"
 excerpt: "BOJ 백준 2178 미로 탐색 문제 코드 회고"
 
 categories:
-  - Coding Challenge
+  - 코테 / 문제해결
 tags:
   - [Coding Challenge, BOJ]
 
@@ -12,14 +12,15 @@ permalink: /coding-challenge/boj-2178/
 toc: false
  
 date: 2020-06-26
-last_modified_at: 2021-09-03
+last_modified_at: 2021-09-24
 
 # sitemap :
 #   changefreq : daily
 #   priority : 1.0
 ---
 
-# 미로 탐색
+# BOJ 2178 C++ 풀이 코드 : 미로 탐색
+
 ```cpp
 #include <iostream>
 #include <queue>
@@ -65,6 +66,8 @@ int main(void) {
 }
 ```
 
-``회고``
+---
 
-공백 없이 입력하는거 쉽게 받으려면 scanf("%1d", ~) 이용하기. 한 줄에 공백 없이 여러 개 입력해도 한 숫자씩 입력 받아오는 방식이다. 경로 찾을 때 맵 따로 생성해서 현재까지의 경로의 길이를 해당 노드 위치에 넣고, 다음 위치에서 현재 위치 +1 하는 방식으로 하기.
+## 회고
+
+공백 없이 들어오는 입력은 scanf("%1d", ~)을 이용하면 쉽다. 한 줄에 공백 없이 여러 개를 입력해도 하나씩 입력 받아오는 방식이다. 경로를 찾을 때는 맵을 따로 생성해서 현재까지의 경로의 길이를 해당 노드 위치에 넣고, 다음 위치에서 현재 위치 +1 하는 방식으로 구현한다.
