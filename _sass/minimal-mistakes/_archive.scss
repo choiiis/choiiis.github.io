@@ -51,6 +51,8 @@
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif;
+  // added
+  font-size: $h-size-3;
   font-weight: 700;
   line-height: initial;
   overflow: hidden;

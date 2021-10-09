@@ -47,6 +47,8 @@
       }
     </style>
     
+    {% include head.html %}
+    {% include head/custom.html %}
 
     <link rel="shortcut icon" type="image/x-icon" href="https://choiiis.github.io/assets/images/favicon/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="https://choiiis.github.io/assets/images/favicon/apple-touch-icon.png">
@@ -59,8 +61,6 @@
 
     <meta name="google-site-verification" content="LKDXdTbkqfYcDLaxd7-n3VyPtaYjoDXQ6axWfVew_VQ" />
     <meta name="naver-site-verification" content="adf9ff31fdd5483be60c146ecf49f0bb5ffc89e7" />
-    {% include head.html %}
-    {% include head/custom.html %}
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">

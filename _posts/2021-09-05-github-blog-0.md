@@ -51,6 +51,8 @@ published : false
 - sidebar navigation으로 카테고리 보여주기(게시글 수 포함)
 - 블로그 구조 변경 (sidbar, 콘텐츠, nav 사이즈 변경)
 - mark 태그
+- 블로그 검색 제목에 보이는 이름 변경   modified:   _includes/seo.html
+        modified:   _layouts/default.html
 ---
 
 **Projects**
