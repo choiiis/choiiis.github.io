@@ -1,19 +1,19 @@
 ---
-title:  "[Git] Git 기본 명령어 정리 (1) push, pull, fetch, merge"
-excerpt: "repository를 local에 연결하기 / local의 디렉토리를 repository와 연결하기 / 연결된 원격 저장소 확인 또는 변경하기"
+title:  "[Git] pull / fetch로 원격 저장소 변경 사항 로컬에 반영하기 | pull, fetch, merge 차이"
+excerpt: "Git 기본 명령어 정리 (3) pull, fetch, merge / 프로젝트 변경 사항 pull, fetch, merge하여 반영하기"
 
 categories:
   - Git
 tags:
   - [Git]
 
-permalink: /git/how-to-push-and-pull-works/
+permalink: /git/how-to-pull-fetch-merge-works/
 
 toc: true
 toc_sticky: true
  
-date: 2021-09-08
-last_modified_at: 2021-09-08
+date: 2021-12-22
+last_modified_at: 2021-12-22
 published : false
 ---
 

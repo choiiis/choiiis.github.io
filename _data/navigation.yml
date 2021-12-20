@@ -28,10 +28,20 @@ categories:
       url: /categories/data-structure/
     - title: "Python"
       url: /categories/python/
+
 - title: Web
   children:
     - title: "Web"
       url: /categories/web/
+
+- title: Work
+  children:
+    - title: "VirtualBox"
+      url: /categories/virtual-box/
+    - title: "Linux"
+      url: /categories/linux/
+    - title: "C언어"
+      url: /categories/c-lang/
 
 - title: Git
   children:
@@ -48,12 +58,3 @@ categories:
       url: /categories/machine-learning/
     - title: "코테 / 문제해결"
       url: /categories/coding-challenge/
-
-- title: Review
-  children:
-    - title: "방문 리뷰"
-      url: /categories/visit-review/
-    - title: "맛집 리뷰"
-      url: /categories/favs-review/
-    - title: "이벤트 리뷰"
-      url: /categories/event-review/
