@@ -14,7 +14,6 @@ toc_sticky: true
  
 date: 2021-12-21
 last_modified_at: 2021-12-21
-published : true
 ---
 
 GitHub에 있는 프로젝트를 로컬에 복제하고 싶다면 clone을 활용하면 된다.<br>

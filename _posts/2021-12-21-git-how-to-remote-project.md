@@ -14,7 +14,6 @@ toc_sticky: true
  
 date: 2021-12-21
 last_modified_at: 2021-12-21
-published : true
 ---
 
 로컬의 프로젝트 폴더가 어떤 원격 저장소와 연결되어 있는지 어떻게 확인할 수 있을까?<br>
