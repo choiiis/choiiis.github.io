@@ -9,8 +9,8 @@ tags:
 
 permalink: /virtual-box/extpack-ver-error-solved/
 
-toc: false
-toc_sticky: false
+toc: true
+toc_sticky: true
  
 date: 2021-12-22
 last_modified_at: 2021-12-22
@@ -24,6 +24,8 @@ Virtual Box를 사용하기 위해서 Extension Pack을 설치해야 하는 경�
 
 ## VirtualBox 확장팩 Extension Pack 설치 오류 해결 방법
 
+### 확장팩 설치 오류 발생
+
 <img src="/assets/images/posts_img/virtual-box-extpack-ver-error-solved/error_msg.jpg" alt="error_msg" width="70%">
 
 **Oracle_VM_VirtualBox_Extension_Pack-6.1.30.vbox-extpack을 설치할 수 없습니다.**<br>
@@ -36,6 +38,10 @@ VBoxExtPackRegister returned VERR_VERSION_MISMATCH 라는 에러 메세지가 �
 쭉 읽어보면 `VERR_VERSION_MISMATCH`, `ErrInfo='Helper version mismatch'` ... <br>
 대충 봐도 뭔가 버전이 맞지 않다는 뜻이다.
 
+<br>
+
+### VirtualBox 버전 확인하기
+
 <img src="/assets/images/posts_img/virtual-box-extpack-ver-error-solved/version_config.jpg" alt="version_config" width="70%">
 
 내 PC의 VirtualBox 버전이 무엇인지 확인을 해보자<br>
@@ -46,6 +52,10 @@ VirtualBox의 버전을 확인하기 위해서 `도움말 > VirtualBox 정보`�
 내 VirtualBox는 6.1 버전이다.<br>
 오른쪽 하단을 보면 정확히는 6.1.22 버전이다. 이게 중요하다.<br>
 그럼 이제 내 버전에 맞는 확장팩을 찾으러 가보자.
+
+<br>
+
+### 이전 버전 VirtualBox 확장팩 설치하기
 
 <img src="/assets/images/posts_img/virtual-box-extpack-ver-error-solved/older_ver_download.jpg" alt="older_ver_download" width="70%">
 
@@ -67,10 +77,8 @@ VirtualBox의 버전을 확인하기 위해서 `도움말 > VirtualBox 정보`�
 
 <img src="/assets/images/posts_img/virtual-box-extpack-ver-error-solved/ver_downgrade.jpg" alt="ver_downgrade" width="70%">
 
-이렇게 다운그레이드 하겠냐고 메세지가 뜬다. `다운그레이드` 클릭!
+이렇게 다운그레이드 하겠냐고 메세지가 뜬다. `다운그레이드` 버튼을 클릭하자.
 
 <img src="/assets/images/posts_img/virtual-box-extpack-ver-error-solved/success.jpg" alt="success" width="70%">
 
-쨘 VirtualBox Extension Pack 설치 완료다!
-
----
+쨘 VirtualBox Extension Pack가 성공적으로 설치되었다!
