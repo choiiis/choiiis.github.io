@@ -26,12 +26,12 @@ Virtual Box를 사용하기 위해서 Extension Pack을 설치해야 하는 경�
 
 ### 확장팩 설치 오류 발생
 
-<img src="/assets/images/posts_img/virtual-box-extpack-ver-error-solved/error_msg.JPG" alt="error_msg" width="70%">
+<img src="/assets/images/posts_img/virtual-box-extpack-ver-error-solved/error_msg.jpg" alt="error_msg" width="70%">
 
 **Oracle_VM_VirtualBox_Extension_Pack-6.1.30.vbox-extpack을 설치할 수 없습니다.**<br>
 VirtualBox의 Extension Pack을 설치하다가 이런 오류를 만났다.
 
-<img src="/assets/images/posts_img/virtual-box-extpack-ver-error-solved/error_detail.JPG" alt="error_detail" width="70%">
+<img src="/assets/images/posts_img/virtual-box-extpack-ver-error-solved/error_detail.jpg" alt="error_detail" width="70%">
 
 자세한 정보 버튼을 클릭해보니,<br>
 VBoxExtPackRegister returned VERR_VERSION_MISMATCH 라는 에러 메세지가 나왔다.<br>
