@@ -33,7 +33,7 @@ VirtualBox의 Extension Pack을 설치하다가 이런 오류를 만났다.
 
 <img src="/assets/images/posts_img/virtual-box-extpack-ver-error-solved/error_detail.jpg" alt="error_detail" width="70%">
 
-자세한 정보를 살펴보니,<br>
+자세한 정보 버튼을 클릭해보니,<br>
 VBoxExtPackRegister returned VERR_VERSION_MISMATCH 라는 에러 메세지가 나왔다.<br>
 쭉 읽어보면 `VERR_VERSION_MISMATCH`, `ErrInfo='Helper version mismatch'` ... <br>
 대충 봐도 뭔가 버전이 맞지 않다는 뜻이다.
