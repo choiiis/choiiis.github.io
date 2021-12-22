@@ -1,6 +1,6 @@
 ---
 title:  "[Git] remote 명령어로 원격 저장소 연결/삭제/이름 변경하기"
-excerpt: "Git 기본 명령어 정리 (2) remote / 로컬 디렉토리를 원격 저장소와 연결하기"
+excerpt: "Git 기본 명령어 정리 (3) remote / 로컬 디렉토리를 원격 저장소와 연결하기"
 
 categories:
   - Git
