@@ -1,5 +1,5 @@
 ---
-title:  "'VirtualBox VBoxExtPackRegister returned VERR_VERSION_MISMATCH' Solution 에러 해결 방법"
+title: "VBoxExtPackRegister returned VERR_VERSION_MISMATCH Solution 확장팩 설치 에러 해결 방법"
 excerpt: "VM virtualbox extension pack version error solved"
 
 categories:

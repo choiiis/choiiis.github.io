@@ -1,22 +1,28 @@
 ---
-title:  "HTML 태그와 속성 정리"
-excerpt: "HTML이란. HTML 태그와 속성 정리. HTML semantic elements"
+title:  "HTML 태그와 속성 정리 : 소스 코드와 실행 결과"
+excerpt: "HTML이란? 그리고 여러가지 HTML 태그와 속성 한번에 정리하기"
 
 categories:
   - Web
 tags:
   - [Web, HTML]
 
-permalink: /web/html-tags-and-attributes/
+permalink: /web/about-html-tags-and-attributes/
 
 toc: true
 toc_sticky: true
  
-date: 2020-05-26
-last_modified_at: 2021-10-22
+date: 2022-01-09
+last_modified_at: 2022-01-09
 ---
 
-## 🦥 HTML(HyperText Markup Language)이란?
+웹 개발의 기초 중의 기초라고 할 수 있는 HTML  
+head와 body안의 여러가지 태그와 속성들에 대해 하나하나 알아보자.  
+
+
+## 🦥 HTML이란?
+
+>HTML은 HyperText Markup Language의 약자
 
 ### 1. HyperText
 

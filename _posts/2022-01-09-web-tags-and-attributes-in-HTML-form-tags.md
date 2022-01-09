@@ -1,19 +1,19 @@
 ---
-title:  "HTML <form> 태그 정리"
-excerpt: "form 태그 정리. input, textarea, label, select"
+title:  "HTML form 내부의 태그와 속성들 : input, textarea, label, select"
+excerpt: "form 내부의 태그와 속성들 한번에 정리하기"
 
 categories:
   - Web
 tags:
   - [Web, HTML]
 
-permalink: /web/basics-of-html-form-tags/
+permalink: /web/tags-and-attributes-in-HTML-form-tags/
 
 toc: true
 toc_sticky: true
  
-date: 2020-05-26
-last_modified_at: 2021-10-22
+date: 2022-01-09
+last_modified_at: 2022-01-09
 ---
 
 ## 🦥 `<form>` 태그

@@ -1,5 +1,5 @@
 ---
-title:  "'no matching key exchange method found' ssh error Solution 해결 방법"
+title: "'no matching key exchange method found' ssh error Solution 해결 방법"
 excerpt: "How to solve 'no matching key for diffie-hellman-group1-sha' ssh error"
 
 categories:
