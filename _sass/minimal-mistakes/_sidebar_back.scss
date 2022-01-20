@@ -180,7 +180,9 @@
   }
 }
 .sidebar .author__name {
-  font-family: 'Song Myung', $sans-serif;
+  /* 2022.01.19 font change */
+  //font-family: 'Song Myung';
+  font-family: $biorhyme;
   font-size: 1.8em;
 }
 
@@ -188,7 +190,9 @@
   margin: 0;
   font-size: 1.4em;
   font-weight: 700;
-  font-family: 'Song Myung';
+  /* 2022.01.19 font change */
+  //font-family: 'Song Myung';
+  font-family: $biorhyme;
   @include breakpoint($large) {
     margin-top: 5px;
     margin-bottom: 10px;

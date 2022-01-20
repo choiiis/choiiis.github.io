@@ -342,7 +342,7 @@
      ========================================================================== */
 
 .nav__list {
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 1.5em;
 
   input[type="checkbox"],
@@ -442,8 +442,9 @@
 }
 
 .nav__list .nav__items {
-  margin: 1em 0 3em 0;  
+  margin: 0 0 2em 0;
   // font-size: 1.25rem;
+  font-family: $biorhyme;
   font-size: 1.5rem;
 
   a {
@@ -451,7 +452,9 @@
     // padding: 0 0 0 0.4em;
     padding: 0 0 0 0.6em;
     font-size: ($type-size-6 + $type-size-5 * 4) / 5;
-    font-weight: 600;
+    /* 2022.01.14 category list */
+    font-weight: bold;
+    // font-weight: normal;
   }
 
   hr {
@@ -464,7 +467,9 @@
     // margin-left: -0.5em;
     // padding-left: 0.5em;
     // padding-right: 0.5em;
+    /* 2022.01.14 category list */
     font-weight: bold;
+    // font-weight: normal;
   }
 
   .nav__total {
@@ -515,11 +520,14 @@
   margin: 1em 0 0 0;
   // padding: 0.25rem 0;
   padding: 0 0 0 0.3em;
-  font-family: $sans-serif-narrow;
+  //font-family: $sans-serif-narrow;
   font-size: $type-size-5;
+  /* 2022.01.14 category title */
   font-weight: bold;
+  // font-weight: normal;
   // text-transform: uppercase;
-  border-bottom: 1px solid $border-color;
+  /* 2022.01.14 remove because of dark mode */
+  // border-bottom: 1px solid $border-color;
 }
 
 /*

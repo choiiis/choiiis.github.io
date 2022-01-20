@@ -7,7 +7,10 @@ categories:
 tags:
   - [Web, CSS]
 
-permalink: /web/how-to-apply-fonts-for-web/
+permalink: /splash-lifelog/how-to-apply-fonts-for-web/
+
+header:
+  teaser: /assets/images/posts_img/web-how-to-apply-fonts-for-web/main_thumbnail.png
 
 toc: true
 toc_sticky: true
@@ -15,7 +18,7 @@ toc_sticky: true
 date: 2022-01-12
 last_modified_at: 2022-01-12
 
-published: false
+published: true
 ---
 
 ## 🦥 웹 폰트 적용하기
@@ -23,4 +26,5 @@ published: false
 2. 'Selected family'가 뜨면, 'Embed'에서 `<link>`를 복사에서 `<head>`에 추가 (`<style>`에 추가하는 거 아님!)
 3. CSS rules 복사해서 폰트를 적용하고 싶은 선택자의 속성으로 붙여넣기
 
+<img src="/assets/images/posts_img/web-how-to-apply-fonts-for-web/main_thumbnail.png" alt="thumbnail" width="70%">
 ---

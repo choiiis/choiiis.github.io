@@ -5,7 +5,8 @@
 .archive {
   margin-top: 1em;
   margin-bottom: 2em;
-  padding-left: 0.5em;
+  //padding-left: 0.5em;
+  padding-left: 3em;
 
   @include breakpoint($large) {
     float: right;
@@ -38,7 +39,9 @@
 .archive__subtitle {
   margin: 1.414em 0 0.5em;
   padding-bottom: 0.5em;
-  font-family: 'Song Myung';
+  /* 2022.01.19 font change */
+  //font-family: 'Song Myung';
+  font-family: $biorhyme;
   font-size: $type-size-4;
   color: $muted-text-color;
   border-bottom: 1px solid $border-color;

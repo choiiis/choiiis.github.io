@@ -41,12 +41,16 @@ body {
     // width: calc(100% - #{$right-sidebar-width-narrow});
     width: calc(100% - #{$left-sidebar-width-narrow});
     padding-right: $right-sidebar-width-narrow;
+    /* 2022.01.19 gap between sidebar and page */
+    padding-left: 3em;
   }
 
   @include breakpoint($x-large) {
     // width: calc(100% - #{$right-sidebar-width});
     width: calc(100% - #{$left-sidebar-width});
     padding-right: $right-sidebar-width;
+    /* 2022.01.19 gap between sidebar and page */
+    padding-left: 3em;
   }
 
   .page__inner-wrap {
@@ -91,10 +95,16 @@ body {
 .page__content {
   // line-height: 1.85;
   font-size: 0.9em;
+  font-weight: normal;
 
-  h2 {
+  // h2 {
     // padding-bottom: 0.3em;
-    border-bottom: 1px solid $border-color;
+    /* 2022.01.14 remove because of dark mode */
+    // border-bottom: 1px solid $border-color;
+  // }
+
+  h1 {
+    font-weight: bold;
   }
 
 	h1, h2, h3, h4, h5, h6 {
@@ -121,8 +131,6 @@ body {
 
   /* paragraph indents */
   p {
-    margin: 0 0 $indent-var;
-
     /* sibling indentation*/
     @if $paragraph-indent == true {
       & + p {
