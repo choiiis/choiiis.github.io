@@ -48,8 +48,11 @@
     /* sidebar left top & right margin */
     // margin-top:0.4em;
     // margin-top:1.2em;
-    margin-top: 2.5em;
-    margin-bottom: 0.4em;
+    /* 2022.01.25 avatar img margin top decrease */
+    // margin-top: 2.5em;
+    margin-top: 0.8em;
+    // margin-bottom: 0.4em;
+    margin-bottom: 1em;
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -138,7 +141,8 @@
   }
 
   img {
-    max-width: 200px;
+    max-width: 70px;
+    align-items: center;
     background-attachment: fixed;
     // border-radius: 0%;
     /* image fit to div */
@@ -151,17 +155,20 @@
   }
 }
 
+
 .author__content {
   display: table-cell;
   vertical-align: top;
   padding-left: 15px;
   padding-right: 25px;
   line-height: 1;
+  /* 2022.01.23 margin at the bottom of the author name */
+  margin-bottom: 5px;
 
   @include breakpoint($large) {
     display: block;
     width: 100%;
-    padding-left: 0;
+    padding-left: 0px;
     padding-right: 0;
   }
 
@@ -182,18 +189,21 @@
 .sidebar .author__name {
   /* 2022.01.19 font change */
   //font-family: 'Song Myung';
-  font-family: $biorhyme;
-  font-size: 1.8em;
-  font-weight: bold;
+  font-family: $menufont;
+  /* 2022.01.23 font size & weight change*/
+  font-size: 1.5em;
+  // font-weight: 400;
+  font-weight: 600;
 }
 
 .author__bio {
   margin: 0;
   font-size: 1.4em;
-  font-weight: 700;
+  /* 2022.01.24 font weight change */
+  // font-weight: 700;
   /* 2022.01.19 font change */
   //font-family: 'Song Myung';
-  font-family: $biorhyme;
+  font-family: $menufont;
   @include breakpoint($large) {
     margin-top: 5px;
     margin-bottom: 10px;
@@ -202,13 +212,22 @@
 
 .author__urls-wrapper {
   position: relative;
+  margin: 0.5em 0 0 0.5em;
+  padding-left: 1.5em;
+  border-left: 0px;
   display: table-cell;
   vertical-align: middle;
   font-size: $type-size-5;
-  font-weight: 700;
+  /* 2022.01.24 font weight change */
+  // font-weight: 700;
+  font-weight: 500;
   font-family: $sans-serif;
   z-index: 20;
   cursor: pointer;
+
+  &.sticky {
+    border-left: 2px solid rgba(199, 198, 198, 0.7);
+  }
 
   li:last-child {
     a {
@@ -255,6 +274,7 @@
   }
 }
 
+
 .author__urls {
   display: none;
   position: absolute;
@@ -266,6 +286,8 @@
   border-radius: $border-radius;
   background: $background-color;
   box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
+  /* 2022.01.22 change font */
+  font-family: $menufont;
   cursor: default;
 
   &.is--visible {

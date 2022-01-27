@@ -1,9 +1,9 @@
 ---
-title: "Algorithm"
+title: "C/C++"
 layout: category
-permalink: /categories/algorithm/
+permalink: /categories/c-cpp/
 author_profile: true
-taxonomy: Algorithm
+taxonomy: C/C++
 sidebar:
   nav: "categories"
 ---

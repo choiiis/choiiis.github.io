@@ -1,9 +1,9 @@
 ---
-title: "Algorithm"
+title: "UI/UX"
 layout: category
-permalink: /categories/algorithm/
+permalink: /categories/ui-ux/
 author_profile: true
-taxonomy: Algorithm
+taxonomy: UI/UX
 sidebar:
   nav: "categories"
 ---

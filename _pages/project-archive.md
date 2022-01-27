@@ -1,10 +1,9 @@
 ---
-title: "Lifelog"
+title: "Projects"
 layout: splash
-permalink: /lifelog/
-# intro: 
-#   - excerpt: 'Log for my happiest moment'
-
+permalink: /projects/
+intro: 
+  - excerpt: 'Log /////for my happiest moment'
 
 feature_row:
   - image_path: /assets/splash/bear_trsp.png

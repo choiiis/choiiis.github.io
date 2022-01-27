@@ -26,7 +26,8 @@ url                      : "https://choiiis.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "choiiis/choiiis.github.io"
 teaser                   : #
-logo                     : "/assets/images/monster.png"
+# logo                     : "/assets/images/meee.svg" 
+#"/assets/images/monster.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -97,30 +98,30 @@ analytics:
 
 # Site Author
 author:
-  name             : "choiiis"
-  avatar           : "/assets/images/avthm.jpg"
-  bio              : "Hamppiness!"
-  location         : "Seoul, Korea"
-  email            :
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/choiiis"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+#   name             : "choiiis"
+  avatar           : "/assets/images/meee.svg"
+#   bio              : "Hamppiness!"
+#   location         : "Seoul, Korea"
+#   email            : 
+#   links:
+#     - label: "Email"
+#       icon: "fas fa-fw fa-envelope-square"
+#       # url: "mailto:your.name@email.com"
+#     - label: "Website"
+#       icon: "fas fa-fw fa-link"
+#       # url: "https://your-website.com"
+#     - label: "Twitter"
+#       icon: "fab fa-fw fa-twitter-square"
+#       # url: "https://twitter.com/"
+#     - label: "Facebook"
+#       icon: "fab fa-fw fa-facebook-square"
+#       # url: "https://facebook.com/"
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/choiiis"
+#     - label: "Instagram"
+#       icon: "fab fa-fw fa-instagram"
+#       # url: "https://instagram.com/"
 
 # Site Footer
 footer:

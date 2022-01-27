@@ -13,7 +13,7 @@ body {
   // for fixed masterhead
   margin-top: 5em;
   padding: 0;
-  color: $text-color;
+  // color: $text-color;
   font-family: $global-font-family;
   // line-height: 1.5;
   /* 2022.01.19 change font weight & skew */
@@ -38,7 +38,7 @@ h6 {
   // line-height: 1.7;
   line-height: 1.5;
   font-family: $header-font-family;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 h1 {
@@ -119,6 +119,10 @@ mark {
   color: rgb(27, 26, 26);
   padding: 0.2em 0.25em 0.2em 0.25em;
   border-radius: 0.3em;
+}
+
+strong {
+  font-weight: 600;
 }
 
 /* blockquotes */
@@ -283,6 +287,7 @@ figure {
   -webkit-box-align: start;
   align-items: flex-start;
   flex-wrap: wrap;
+  /* 2022.01.21 lifelog image gap (not changed) */
   margin: 2em 0;
 
   img,
@@ -334,8 +339,12 @@ figure {
 figcaption {
   margin-bottom: 0.5em;
   color: $muted-text-color;
-  font-family: $caption-font-family;
-  font-size: $type-size-6;
+  /* 2022.01.21 lifelog image caption */
+  // font-family: $caption-font-family;
+  // font-size: $type-size-6;
+  font-family: $menufont;
+  font-size: $type-size-5;
+
 
   a {
     -webkit-transition: $global-transition;

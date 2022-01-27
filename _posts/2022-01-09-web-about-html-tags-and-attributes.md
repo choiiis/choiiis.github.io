@@ -3,7 +3,7 @@ title:  "HTML 태그와 속성 정리 : 소스 코드와 실행 결과"
 excerpt: "HTML이란? 그리고 여러가지 HTML 태그와 속성 한번에 정리하기"
 
 categories:
-  - Web
+  - HTML
 tags:
   - [Web, HTML]
 

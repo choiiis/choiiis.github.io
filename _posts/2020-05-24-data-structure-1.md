@@ -3,7 +3,7 @@ title:  "배열과 연결 리스트 정리 (Array / Linked list)"
 excerpt: "배열과 연결 리스트의 특징, 시간 복잡도, 장점, 단점, 그리고 사용하는 경우"
 
 categories:
-  - 자료구조
+  - "Data Structure"
 tags:
   - [Data Structure, C++]
 

@@ -10,7 +10,7 @@ figure.highlight {
   // background: mix($base00, #000, 95%);
   // background: rgba(0, 0, 0, 0.05);
   // background-color: rgb(240, 240, 240);
-  background-color: rgba(240, 240, 240, 0.5);
+  background-color: $code-background-color;
 
   color: $base05;
   font-family: $monospace;

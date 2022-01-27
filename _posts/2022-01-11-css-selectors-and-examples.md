@@ -3,7 +3,7 @@ title:  "CSS 선택자 정리와 실습 예제"
 excerpt: "선택자 select의 종류와 특징, 그리고 실습 코드와 실행 결과"
 
 categories:
-  - Web
+  - CSS
 tags:
   - [Web, CSS]
 

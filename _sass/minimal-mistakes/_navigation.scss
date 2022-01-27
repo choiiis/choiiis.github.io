@@ -77,7 +77,8 @@
       padding: 0.5em 1em;
       font-family: $sans-serif;
       font-size: 14px;
-      font-weight: bold;
+      //font-weight: bold;
+      font-weight: normal;
       line-height: 1.5;
       text-align: center;
       text-decoration: none;
@@ -357,7 +358,8 @@
       padding: 0.5em 2.5em 0.5em 1em;
       color: $gray;
       font-size: $type-size-6;
-      font-weight: bold;
+      // font-weight: bold;
+      font-weight: normal;
       border: 1px solid $light-gray;
       border-radius: $border-radius;
       z-index: 20;
@@ -444,23 +446,39 @@
 .nav__list .nav__items {
   margin: 0 0 2em 0;
   // font-size: 1.25rem;
-  font-family: $biorhyme;
+  font-family: $menufont;
   font-size: 1.5rem;
 
   a {
     color: inherit;
     // padding: 0 0 0 0.4em;
-    padding: 0 0 0 0.6em;
-    font-size: ($type-size-6 + $type-size-5 * 4) / 5;
+    padding: 0 0 0 0;
+    font-size: ($type-size-6 + $type-size-5) / 2;
     /* 2022.01.14 category list */
-    font-weight: bold;
-    // font-weight: normal;
+    // font-weight: bold;
+    font-weight: 500;
+
+    &:hover {
+      color: rgba($text-color, 0.8);
+    }
+  }
+
+  /* 2022.01.23 added */
+  ul {
+    margin-left: 1em;
+    padding: 0 0 0 1em;
+    // border-left: 3px solid #f1f1f1;
+    border-left: 3px solid rgba($primary-color, 0.2);
+    li {
+      padding: 0.1em 0 0.1em 0;
+    }
   }
 
   hr {
     margin: 0 1.5em 0.3em 0;
-    // border-top: 1.5px solid mix(#000, $background-color, 20%);
-    border-top: 2.5px solid mix($primary-color, $background-color, 60%);
+    /* 2022.01.23 remove border */
+    //border-top: 2.5px solid mix($primary-color, $background-color, 60%);
+    border-top: 0px;
   }
 
   .active {
@@ -468,8 +486,8 @@
     // padding-left: 0.5em;
     // padding-right: 0.5em;
     /* 2022.01.14 category list */
-    font-weight: bold;
-    // font-weight: normal;
+    // font-weight: bold;
+    font-weight: normal;
   }
 
   .nav__total {
@@ -521,14 +539,13 @@
   // padding: 0.25rem 0;
   padding: 0 0 0 0.3em;
   //font-family: $sans-serif-narrow;
-  font-size: $type-size-5;
+  font-size: $type-size-6;
   /* 2022.01.14 category title */
-  font-weight: bold;
-  // font-weight: normal;
+  //font-weight: bold;
+  font-weight: 600;
   // text-transform: uppercase;
-  /* 2022.01.14 remove because of dark mode */
-  // border-bottom: 1px solid $border-color;
 }
+
 
 /*
      Table of contents navigation
@@ -550,13 +567,13 @@
   .nav__title {
     // color: #fff;
     /* change Right Navigation title 'On this page' color */
-    color: rgb(75, 73, 73);
+    color: rgb(54, 54, 54);
     font-size: $type-size-6;
     // background: $primary-color;
     background: inherit;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
-    border-bottom: 1.5px solid mix(rgb(14, 221, 24), $background-color, 80%);
+    border-bottom: 1.5px solid rgba($primary-color, 0.3);
   }
 
   // Scrollspy marks toc items as .active when they are in focus
@@ -570,7 +587,9 @@
   padding: 0;
   width: 100%;
   list-style: none;
-  font-size: $type-size-6;
+  /* 2022.01.23 font size increase */
+  //font-size: $type-size-6;
+  font-size: $type-size-5;
 
   @include breakpoint($large) {
     font-size: $type-size-7;
@@ -581,14 +600,15 @@
     padding: 0.25rem 0.75rem;
     // color: $muted-text-color;
     color: $text-color;
+    font-weight: 400;
     // font-weight: bold;
     line-height: 1.5;
-    // border-bottom: 1px solid $border-color;
-    border-bottom: 1.5px solid mix(rgb(14, 221, 24), $background-color, 80%);
+    // border-bottom: 1.5px solid mix(rgb(14, 221, 24), $background-color, 80%);
+    border-bottom: 1.5px solid rgba($primary-color, 0.3);
 
     &:hover {
-      font-weight: bold;
-      font-size: 105%;
+      font-weight: 500;
+      font-size: 100%;
     }
   }
 

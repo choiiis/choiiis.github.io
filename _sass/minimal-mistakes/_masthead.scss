@@ -31,7 +31,8 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    font-family: $sans-serif-narrow;
+    //font-family: $sans-serif-narrow;
+    font-family: $menufont;
 
     @include breakpoint($x-large) {
       max-width: $max-width;
@@ -49,6 +50,28 @@
 
 .site-logo img {
   max-height: 2.2rem;
+  /* 2022.01.23 rotate */
+  animation: rotate_image 1s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes rotate_image{
+	25% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  75% {
+  	transform: rotate(-5deg);
+  }
+
+  100% {
+  	transform: rotate(0deg);
+  }
+
 }
 
 .site-title {
@@ -60,6 +83,7 @@
   font-weight: bold;
   font-size: 1.4rem;
   // z-index: 20;
+  font-style: italic;
 }
 
 .site-subtitle {
@@ -76,7 +100,8 @@
   clear: both;
   /* 2022.01.19 font change */
   //font-family: 'Song Myung';
-  font-family: $biorhyme;
+  //font-family: $menufont;
+  font-family: $menufont;
 
   .site-nav {
     margin-left: 0;

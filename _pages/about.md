@@ -1,10 +1,37 @@
 ---
-title: "안녕하세요 Choiiis 입니다"
+title: "Hi all! I'm choiiis👋🏻"
 permalink: /about/
 layout: single
 ---
 
+<!-- <img src="/assets/images/avthm.jpg" alt="about_meee" width="70%"> -->
 
-어쩌다보니 시작한 블로그입니다.
+<div>
+    <img src="/assets/images/avthm.jpg" alt="about_meee" width="70%" min-width="700px" itemprop="image">
+</div>
 
-정리하고 싶은 것들과 기록하고 싶은 것들을 올리고 있습니다.
+
+<div style="border-left: 2px solid rgba(199, 198, 198, 0.7); margin: 0.5em 0 0 0.5em; padding-left: 1.5em; font-weight: 500;">
+    <!-- <button class="btn btn--inverse">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button> -->
+    <ul class="author__urls social-icons">
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">  Seoul, Korea</span>
+        </li>
+        <li>
+          <a href="https://github.com/choiiis" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">  https://github.com/choiiis</span>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:bemychoiiis@gmail.com">
+            <meta itemprop="email" content="bemychoiiis@gmail.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">  bemychoiiis@gmail.com</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/choiiis.dev/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">  https://www.instagram.com/choiiis.dev/</span>
+          </a>
+        </li>
+    </ul>
+  </div>

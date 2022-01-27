@@ -3,44 +3,47 @@
    ========================================================================== */
 
 /* Colors */
-/* green & white */
-// $background-color: #25cf57 !default;
-// $text-color: #fdfdfd !default;
-/* white & orange */
-// $background-color: #fc7b24 !default;
-// $text-color: #fff !default;
 /* black & white */
-$background-color: rgb(255, 255, 255) !default;
-$text-color: rgb(5, 5, 5) !default;
-/* yello & black */
-// $background-color: rgb(253, 243, 105) !default;
-// $text-color: rgb(51, 51, 51) !default;
+// $background-color: rgb(255, 255, 255) !default;
+$background-color: #ffffff !default;
+// $text-color: rgb(7, 4, 4) !default;
+// $text-color: rgb(54, 54, 54) !default;
+$text-color: rgb(7, 7, 7) !default;
+
 
 
 // $primary-color: #fff !default;
-$primary-color: mix(rgb(14, 221, 24), $background-color, 80%) !default;
+// $primary-color: mix(rgb(14, 221, 24), $background-color, 80%) !default;
+// blue
+// $primary-color: #0a63d0a6 !default;
+// $primary-color: #0a63d0 !default;
+// yellow
+// $primary-color: #F3D849 !default;
+// violet
+// $primary-color: #aa6dbe !default;
+// orange
+$primary-color: #FF6C02 !default;
+
 $border-color: mix(#fff, $background-color, 20%) !default;
-// $border-color: mix(#000, $background-color, 20%) !default;
-// $code-background-color: mix(#000, $background-color, 5%) !default;
-// $code-background-color: mix(rgb(78, 218, 199), $background-color, 30%) !default;
-// $code-background-color: mix(rgb(255, 233, 31), $background-color, 30%) !default;
-// $code-background-color:rgba(46, 51, 46, 0.1);
-$code-background-color:rgba(250, 226, 183, 0.5);
-$code-background-color-dark: rgba(185, 185, 185, 0.5) !default;
+$code-background-color:rgba(240, 240, 240, 0.5);
+// $code-background-color-dark: rgba(185, 185, 185, 0.5) !default;
+$code-background-color-dark: rgba(185, 185, 185, 0.25) !default;
 
+// $mark-highlight-color: rgba(114, 240, 41, 0.3) !default;
+$mark-highlight-color: rgba($primary-color, 0.15) !default;
 
-$mark-highlight-color: rgba(114, 240, 41, 0.3) !default;
+// $block-quote-background-color: rgba(114, 240, 41, 0.116) !default;
+$block-quote-background-color: rgba($primary-color, 0.1) !default;
 
-$block-quote-background-color: rgba(114, 240, 41, 0.116) !default;
-// $form-background-color: mix(#000, $background-color, 15%) !default;
 $form-background-color: rgba(255, 255, 255, 0.527) !default;
+
 $footer-background-color: mix(#000, $background-color, 3%) !default;
 $link-color: $primary-color !default;
-// $link-color-hover: mix(#fff, $link-color, 25%) !default;
-// $link-color-visited: mix(#000, $link-color, 25%) !default;
-// $link-color-hover: mix(#000, $link-color, 80%) !default;
-$link-color-hover: mix(#000, $link-color, 40%) !default;
-$link-color-visited: mix(#000, $link-color, 15%) !default;
+
+// $link-color-hover: mix($link-color, #000, 10%) !default;
+// $link-color-visited: mix(#000, $link-color, 15%) !default;
+$link-color-hover: mix($primary-color, $background-color, 70%) !default;
+$link-color-visited: mix($link-color, rgb(3, 3, 3), 98%) !default;
 
 $masthead-link-color: $text-color !default;
 // $masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
@@ -48,6 +51,15 @@ $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: mix(#000, $text-color, 70%) !default;
 $navicon-link-color-hover: mix(#000, $background-color, 80%) !default;
 
+
+/* 2022.01.27 */
+$active-color: mix($primary-color, $background-color, 5%) !default;
+
+/* YIQ color contrast */
+$yiq-contrasted-dark-default: $text-color !default;
+$yiq-contrasted-light-default: #fff !default;
+$yiq-contrasted-threshold: 175 !default;
+$yiq-debug: false !default;
 
 /* plum syntax highlighting (base16) */
 $base00: #ffffff !default;
@@ -84,7 +96,7 @@ $base0f: #cc6633 !default;
 /* next/previous buttons */
 .pagination--pager {
   color: $text-color;
-  background-color: $primary-color;
+  background-color: rgba($primary-color, 0.6);
   border-color: transparent;
 
   &:visited {

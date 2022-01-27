@@ -3,7 +3,7 @@ title: "VBoxExtPackRegister returned VERR_VERSION_MISMATCH Solution 확장팩 �
 excerpt: "VM virtualbox extension pack version error solved"
 
 categories:
-  - VirtualBox
+  - Linux
 tags:
   - [VirtualBox]
 

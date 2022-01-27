@@ -6,8 +6,14 @@ main:
   # - title: "GitHub"
   #   url: https://github.com/choiiis
 
-  - title: "Categories"
-    url: /categories/
+  - title: "About"
+    url: /about/
+
+  - title: "Projects"
+    url: /projects/
+
+  # - title: "Categories"
+  #   url: /categories/
 
   - title: "Lifelog"
     url: /lifelog/
@@ -21,43 +27,38 @@ main:
 
 # sidebar navigation (categories)
 categories:
-- title: Programming
+- title: Basics
   children:
-    - title: "C++ STL"
-      url: /categories/cpp-stl/
-    - title: "알고리즘"
+    - title: "C/C++"
+      url: /categories/c-cpp/
+    - title: "Algorithm"
       url: /categories/algorithm/
-    - title: "자료구조"
+    - title: "Data Structure"
       url: /categories/data-structure/
     - title: "Python"
       url: /categories/python/
+    - title: "Linux"
+      url: /categories/linux/
+    - title: "Git"
+      url: /categories/git/
 
 - title: Web
   children:
-    - title: "Web"
-      url: /categories/web/
+    - title: "HTML"
+      url: /categories/html/
+    - title: "CSS"
+      url: /categories/css/
 
-- title: Work
+- title: Design
   children:
-    - title: "VirtualBox"
-      url: /categories/virtual-box/
-    - title: "Linux"
-      url: /categories/linux/
-    - title: "C언어"
-      url: /categories/c-lang/
-
-- title: Git
-  children:
-    - title: "Git"
-      url: /categories/git/
-    - title: "GitHub Blog"
-      url: /categories/github-blog/
+    - title: "Templates"
+      url: /categories/templates/
+    - title: "UI/UX"
+      url: /categories/ui-ux/
 
 - title: Projects
   children:
-    - title: "Android"
-      url: /categories/android/
+    - title: "GitHub Blog"
+      url: /categories/github-blog/
     - title: "Machine Learning"
       url: /categories/machine-learning/
-    - title: "코테 / 문제해결"
-      url: /categories/coding-challenge/

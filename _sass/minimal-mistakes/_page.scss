@@ -19,6 +19,7 @@
   }
 }
 
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -559,24 +560,65 @@ body {
    Wide Pages
    ========================================================================== */
 
+/* 2022.01.20 wide pages use for lifelog */
 .wide {
   .page {
+    width:100%;
+    float:inherit;
+    
     @include breakpoint($large) {
       padding-right: 0;
+      /* 2022.01.20 add padding-left */
+      padding-left: 0;
     }
 
     @include breakpoint($x-large) {
       padding-right: 0;
+      /* 2022.01.20 add padding-left */
+      padding-left: 0;
+    }
+
+    .page__inner-wrap {
+      margin-top: 5em;
+
+      .page__content {
+        margin-top: 5em;
+      }
+    }
+
+    .page__title {
+      margin-top: 0;
+      margin-bottom: 0.5em;
+      // line-height: 1;
+      line-height: 1.5;
+      font-size: $type-size-2;
+      text-align: center;
+    
+      & + .page__meta {
+        margin-top: -0.5em;
+        font-size: $type-size-6;
+        text-align: center;
+      }
     }
   }
 
   .page__related {
     @include breakpoint($large) {
       padding-right: 0;
+      /* 2022.01.20 add padding-left */
+      padding-left: 0;
     }
 
     @include breakpoint($x-large) {
       padding-right: 0;
+      /* 2022.01.20 add padding-left */
+      padding-left: 0;
     }
   }
+}
+
+/* 2022.01.20 add .wide#main for lifelog page */
+#main.wide {
+  padding-left: 7em;
+  padding-right: 7em;
 }

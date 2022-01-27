@@ -26,5 +26,14 @@ published: true
 2. 'Selected family'가 뜨면, 'Embed'에서 `<link>`를 복사에서 `<head>`에 추가 (`<style>`에 추가하는 거 아님!)
 3. CSS rules 복사해서 폰트를 적용하고 싶은 선택자의 속성으로 붙여넣기
 
+Copperplate belongs to the monotone group and features capital letters only. It is best used as a display font for business cards and letterheads.
+
+On a website page, this font can be a great option for headers and titles.
+This typeface became famous after Who Wants To Be A Millionaire used the font in its trademark.
+Copperplate belongs to the monotone group and features capital letters only. It is best used as a display font for business cards and letterheads.
+
+On a website page, this font can be a great option for headers and titles.
+This typeface became famous after Who Wants To Be A Millionaire used the font in its trademark.
+
 <img src="/assets/images/posts_img/web-how-to-apply-fonts-for-web/main_thumbnail.png" alt="thumbnail" width="70%">
 ---

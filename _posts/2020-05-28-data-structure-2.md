@@ -3,7 +3,7 @@ title:  "스택, 큐, 덱 정리 (Stack / Queue / Deque)"
 excerpt: "스택(stack), 큐(queue), 덱(deque)의 특징, 시간 복잡도, 장/단점, 사용하는 경우"
 
 categories:
-  - 자료구조
+  - "Data Structure"
 tags:
   - [Data Structure, C++]
 

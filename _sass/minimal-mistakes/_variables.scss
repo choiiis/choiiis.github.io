@@ -16,16 +16,17 @@ $indent-var: 0.7lem !default;
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
 /* 2022.01.19 font change */
-$sans-serif: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', "Mulish", "Pretendard", sans-serif !default;
-// $sans-serif: -apple-system, "RIDIBatang", "Roboto", "Segoe UI",
-//   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$monospace: "Fira Mono", Monaco, Consolas, "Lucida Console", monospace !default;
+//$sans-serif: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', "Mulish", "Pretendard", sans-serif !default;
+$sans-serif: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', "Montserrat", "Pretendard", "Merriweather", sans-serif !default;
+$monospace: "Fira Mono", "Pretendard", Monaco, Consolas, "Lucida Console", monospace !default;
 
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
 $helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
-$biorhyme: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', "BioRhyme", "Pretendard", sans-serif !default;
+//$biorhyme: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', "BioRhyme", "Pretendard", sans-serif !default;
+$menufont: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', "Montserrat", "BioRhyme", "Pretendard", sans-serif !default;
+
 
 /* serif typefaces */
 $georgia: Georgia, serif !default;
@@ -33,6 +34,9 @@ $times: Times, serif !default;
 $bodoni: "Bodoni MT", serif !default;
 $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
+$lobster: 'Lobster', cursive !default;
+$biorhyme: 'BioRhyme', serif !default;
+$creteround: 'Crete Round', serif !default;
 
 $global-font-family: $sans-serif !default;
 $header-font-family: $sans-serif !default;
@@ -92,7 +96,7 @@ $info-color: #3b9cba !default;
 $focus-color: $primary-color !default;
 // $active-color: mix(#fff, $primary-color, 80%) !default;
 // navigation background color
-$active-color: mix(rgb(14, 221, 24), $background-color, 5%) !default;
+$active-color: mix($primary-color, $background-color, 5%) !default;
 
 /* YIQ color contrast */
 $yiq-contrasted-dark-default: $dark-gray !default;
@@ -162,6 +166,8 @@ $medium-wide: 900px !default;
 $large: 1024px !default;
 $x-large: 1280px !default;
 $max-width: $x-large !default;
+/* 2022.01.20 max-width 1280 to 1920 */
+//$max-width: 1920px !default;
 
 /*
    Grid

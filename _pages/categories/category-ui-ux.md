@@ -1,9 +1,9 @@
 ---
-title: "C언어"
+title: "Templates"
 layout: category
-permalink: /categories/c-lang/
+permalink: /categories/templates/
 author_profile: true
-taxonomy: C언어
+taxonomy: Templates
 sidebar:
   nav: "categories"
 ---

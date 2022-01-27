@@ -1,9 +1,9 @@
 ---
-title: "C++ STL"
+title: "CSS"
 layout: category
-permalink: /categories/cpp-stl/
+permalink: /categories/css/
 author_profile: true
-taxonomy: C++ STL
+taxonomy: CSS
 sidebar:
   nav: "categories"
 ---

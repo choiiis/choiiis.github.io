@@ -182,7 +182,7 @@
 .sidebar .author__name {
   /* 2022.01.19 font change */
   //font-family: 'Song Myung';
-  font-family: $biorhyme;
+  font-family: $menufont;
   font-size: 1.8em;
 }
 
@@ -192,7 +192,7 @@
   font-weight: 700;
   /* 2022.01.19 font change */
   //font-family: 'Song Myung';
-  font-family: $biorhyme;
+  font-family: $menufont;
   @include breakpoint($large) {
     margin-top: 5px;
     margin-bottom: 10px;
