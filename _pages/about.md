@@ -2,6 +2,7 @@
 title: "Hi all! I'm choiiis👋🏻"
 permalink: /about/
 layout: single
+comments: false
 ---
 
 <div>
