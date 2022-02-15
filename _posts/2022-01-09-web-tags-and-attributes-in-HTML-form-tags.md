@@ -3,7 +3,7 @@ title:  "HTML form 내부의 태그와 속성들 : input, textarea, label, selec
 excerpt: "form 내부의 태그와 속성들 한번에 정리하기"
 
 categories:
-  - HTML
+  - Web
 tags:
   - [Web, HTML]
 

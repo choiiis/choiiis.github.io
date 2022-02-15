@@ -32,7 +32,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -43,8 +43,8 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme                : "github-light" # "github-dark"
+    issue_term           : "pathname"
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
@@ -98,12 +98,12 @@ analytics:
 
 # Site Author
 author:
-#   name             : "choiiis"
+  # name             : "choiiis"
   avatar           : "/assets/images/meee.svg"
 #   bio              : "Hamppiness!"
-#   location         : "Seoul, Korea"
-#   email            : 
-#   links:
+  # location         : "Seoul, Korea"
+  # email            : "bemychoiiis@gmail.com"
+  links:
 #     - label: "Email"
 #       icon: "fas fa-fw fa-envelope-square"
 #       # url: "mailto:your.name@email.com"
@@ -116,12 +116,12 @@ author:
 #     - label: "Facebook"
 #       icon: "fab fa-fw fa-facebook-square"
 #       # url: "https://facebook.com/"
-#     - label: "GitHub"
-#       icon: "fab fa-fw fa-github"
-#       url: "https://github.com/choiiis"
-#     - label: "Instagram"
-#       icon: "fab fa-fw fa-instagram"
-#       # url: "https://instagram.com/"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/choiiis"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://www.instagram.com/choiiis.dev/"
 
 # Site Footer
 footer:

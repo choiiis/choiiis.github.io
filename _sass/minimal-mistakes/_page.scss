@@ -59,6 +59,7 @@ body {
     margin-top: 1em;
     padding-top: 1em;
     margin-left: 0;
+    /* 2022.01.31 About tab padding left */
     margin-right: 0;
     width: 100%;
     clear: both;
@@ -142,11 +143,15 @@ body {
   }
 
   a:not(.btn) {
+    img {
+      box-shadow: 0 0 10px rgba(#000, 0.1);
+    }
+
     &:hover {
       // text-decoration: underline;
-
+      color: rgba(#000, 0.7);
       img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
+        box-shadow: 0 0 10px rgba(#000, 0.3);
       }
     }
   }

@@ -592,7 +592,8 @@
   font-size: $type-size-5;
 
   @include breakpoint($large) {
-    font-size: $type-size-7;
+    // font-size: $type-size-7;
+    font-size: $type-size-6;
   }
 
   a {

@@ -3,7 +3,7 @@ title:  "CSS 타이포그래피 속성 정리 & 실습 코드"
 excerpt: "글씨체나 정렬, 색상 등에 관련된 타이포그래피에 대해 실습을 통해서 알아보기"
 
 categories:
-  - CSS
+  - Web
 tags:
   - [Web, CSS]
 

@@ -141,9 +141,11 @@
   }
 
   img {
-    max-width: 70px;
+    max-width: 80px;
     align-items: center;
     background-attachment: fixed;
+    margin-top: 25px;
+    margin-bottom: 10px;
     // border-radius: 0%;
     /* image fit to div */
     // margin: 5px;
@@ -213,7 +215,7 @@
 .author__urls-wrapper {
   position: relative;
   margin: 0.5em 0 0 0.5em;
-  padding-left: 1.5em;
+  // padding-left: 1.5em;
   border-left: 0px;
   display: table-cell;
   vertical-align: middle;
