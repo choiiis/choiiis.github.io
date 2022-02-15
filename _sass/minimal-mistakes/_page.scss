@@ -441,10 +441,15 @@ body {
   clear: both;
 }
 
+.page__comments#utterances-comments {
+  @include clearfix();
+  padding-top : 2em;
+}
+
 .page__comments-title {
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 10px;
-  padding-top: 2rem;
+  padding-top: 1.5rem;
   font-size: $type-size-6;
   border-top: 1px solid $border-color;
   text-transform: uppercase;
@@ -468,7 +473,6 @@ body {
   }
 }
 
-/* 2022.02.16 comment class uses for utterances */
 .comment {
   @include clearfix();
   // margin: 1em 0;
