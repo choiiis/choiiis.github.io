@@ -13,20 +13,21 @@
 - logo 변경
 - 카테고리 디자인 변경
 - font family, size 변경
-- Project 탭 추가
 - 메인 컬러 변경
+
+[VER2.1]
+![choiiis github blog main](/assets/images/posts_img/readme/ver2_1_main.png)
+- 카테고리 정리  
+- favicon 변경  
 
 <br>
 
-> 🌴 **개인 공부**
+> 🌴 **목차**
 
-┌ `Algorithm` <br>
-├ `C++ STL` <br>
-├ `Coding Challenge` <br>
-├ `Data Structure` <br>
-├ `Git` <br>
-├ `Maching Learning` <br>
-├ `Python` <br>
-└ `Web` <br>
-
-> 🌴 **기록**
+┌ `Algorithm`  
+├ `C++`  
+├ `Python`  
+├ `Git`  
+├ `GitHub Blog`  
+├ `Maching Learning`  
+└ `Web`  
