@@ -16,7 +16,7 @@
 minimal_mistakes_skin    : "plum" #"plum", "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko-KR" #"en-US"
 title                    : "choiiis Devlog"
 title_separator          : "&#124;"
 subtitle                 : # site tagline that appears below site title in masthead
@@ -98,7 +98,7 @@ analytics:
 
 # Site Author
 author:
-  # name             : "choiiis"
+  name             : "choiiis"
   avatar           : "/assets/images/meee.svg"
 #   bio              : "Hamppiness!"
   # location         : "Seoul, Korea"

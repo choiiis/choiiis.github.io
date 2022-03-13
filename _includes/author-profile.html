@@ -15,7 +15,8 @@
     </div>
   {% endif %}
 
-  <div class="author__content">
+  <!-- 2022.02.17 author content hidden -->
+  <!-- <div class="author__content">
     {% if author.home %}
       <a href="{{ author.home | relative_url }}"><h3 class="author__name" itemprop="name">{{ author.name }}</h3></a>
     {% else %}
@@ -26,7 +27,7 @@
         {{ author.bio | markdownify }}
       </div>
     {% endif %}
-  </div>
+  </div> -->
 
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button> -->
