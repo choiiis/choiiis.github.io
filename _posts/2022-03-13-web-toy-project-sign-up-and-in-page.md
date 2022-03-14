@@ -73,7 +73,7 @@ HTML, CSS, Javascript 연습 겸 웹페이지의 기본적인 기능인 회원�
 
 ### 도메인 리스트 Drop-down 구현
 
-![email-input](/assets/images/posts_img/web-toy-project-sign-up-and-in-page/email-input.png)
+![email-domain-list](/assets/images/posts_img/web-toy-project-sign-up-and-in-page/email-domain-list.gif)
 
 #### 클릭 시 드롭다운 보이기
 
@@ -145,6 +145,8 @@ domainEl.addEventListener('click', function () {
 isActiveDomainList를 변수를 두어 domain 클래스를 클릭할 때마다 boolean 값이 반전되도록 했다. isActiveDomainList가 false, 즉 domain 리스트가 보이지 않는 상태이면 active 클래스를 추가한다. active 클래스를 추가하면 드롭다운 리스트가 보이게 된다.
 
 #### 스크롤바 디자인
+
+![email-input-finish](/assets/images/posts_img/web-toy-project-sign-up-and-in-page/email-input-finish.png)
 
 ```css
 .domain .domain__list::-webkit-scrollbar {
