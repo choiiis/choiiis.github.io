@@ -671,5 +671,30 @@ landmark_dict = dict(zip(*key_val))
 
 # 결과 : {'Alex': 80, 'Jess': 90, 'Dilan': 95, 'Mei': 67, 'Teddy': 88}
 ```
+---
+
+### python list가 비어있는지 확인
+
+```python
+arr = []
+
+if not arr:
+  print("empty")
+
+if arr:
+  print("not empty")
+```
 
 ---
+
+### python list의 마지막 요소 가져오기/제거하기
+
+```python
+arr = [1, 3, 5, 2, 4]
+print(arr[-1]) # 4
+arr.pop()
+```
+
+c언어 stack 클래스의 함수 stack.top() 대신 [-1]로 마지막 원소 접근한다. pop() 함수는 python도 동일하게 사용
+
+
