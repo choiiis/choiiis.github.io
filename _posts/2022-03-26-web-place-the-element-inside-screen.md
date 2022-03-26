@@ -1,5 +1,5 @@
 ---
-title:  "Javascript로 원형 요소를 화면에서 벗어나지 않게 출력하기"
+title:  "Javascript로 원형 div를 화면에서 벗어나지 않게 출력하기"
 excerpt: "요소를 화면 밖으로 나가지 않게 하고 화면 크기에 맞춰 조절하기"
 
 categories:
@@ -16,7 +16,7 @@ date: 2022-03-26
 last_modified_at: 2022-03-26
 ---
 
-### 원형 element의 지름을 화면 크기에 따라 조절하기
+### 원형 div element의 지름을 화면 크기에 따라 조절하기
 
 ![inside-browser.gif](/assets/images/posts_img/web-place-the-element-inside-screen/inside-browser.gif)
 
