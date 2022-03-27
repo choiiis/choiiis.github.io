@@ -133,7 +133,6 @@ zoomIn = setInterval(() => {
       // zoomOut 반복 끝
       setTimeout(() => {
         clearInterval(zoomOut)
-        console.log("zoomOut Clear")
         isEventRunning = false
       }, 1000)
     }, 300)
