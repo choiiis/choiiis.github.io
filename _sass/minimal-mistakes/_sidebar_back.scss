@@ -8,7 +8,6 @@
 
 .sidebar {
   @include clearfix();
-  // border: 3px solid $border-color;
 
   @include breakpoint(max-width $large) {
     /* fix z-index order of follow links */
@@ -21,13 +20,6 @@
   @include breakpoint($large) {
     float: left;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
-    // opacity: 0.9;
-    // -webkit-transition: opacity 0.2s ease-in-out;
-    // transition: opacity 0.2s ease-in-out;
-
-    // &:hover {
-    //   opacity: 1;
-    // }
 
     &.sticky {
       overflow-y: auto;
@@ -45,9 +37,6 @@
   }
 
   > * {
-    /* sidebar left top & right margin */
-    // margin-top:0.4em;
-    // margin-top:1.2em;
     margin-top: 2.5em;
     margin-bottom: 0.4em;
     margin-left: 5%;
@@ -90,16 +79,13 @@
     right: 0;
     width: $right-sidebar-width-narrow;
     margin-right: -1 * $right-sidebar-width-narrow;
-    // padding-left: 1em;
     padding-left: 5em;
-    // padding-right: 1.5em;
     z-index: 10;
 
     &.sticky {
       @include clearfix();
       position: -webkit-sticky;
       position: sticky;
-      // top: 2em;
       top: 7em;
       float: right;
     }
@@ -140,9 +126,6 @@
   img {
     max-width: 200px;
     background-attachment: fixed;
-    // border-radius: 0%;
-    /* image fit to div */
-    // margin: 5px;
 
     @include breakpoint($large) {
       padding: 0px;
@@ -180,8 +163,6 @@
   }
 }
 .sidebar .author__name {
-  /* 2022.01.19 font change */
-  //font-family: 'Song Myung';
   font-family: $menufont;
   font-size: 1.8em;
 }
@@ -190,8 +171,6 @@
   margin: 0;
   font-size: 1.4em;
   font-weight: 700;
-  /* 2022.01.19 font change */
-  //font-family: 'Song Myung';
   font-family: $menufont;
   @include breakpoint($large) {
     margin-top: 5px;
@@ -333,10 +312,6 @@
     color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
-
-    // &:hover {
-    //   text-decoration: underline;
-    // }
   }
 }
 

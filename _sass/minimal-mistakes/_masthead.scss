@@ -3,12 +3,9 @@
    ========================================================================== */
 
 .masthead {
-  // position: relative;
-  // masterhead fixed
   position: fixed;
   top: 0;
   width: 100%;
-  // background-color: $background-color;
   background-color: rgba($background-color, 0.9);
   border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
@@ -22,7 +19,6 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    // padding: 1em;
     padding: 1.5em 1em 1em 1em;
     max-width: 100%;
     display: -webkit-box;
@@ -31,7 +27,6 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    //font-family: $sans-serif-narrow;
     font-family: $menufont;
 
     @include breakpoint($x-large) {
@@ -82,13 +77,11 @@
   align-self: center;
   font-weight: bold;
   font-size: 1.4rem;
-  // z-index: 20;
   font-style: italic;
 }
 
 .site-subtitle {
   display: block;
-  // font-size: $type-size-8;
   font-size: 0.4rem;
 }
 
@@ -98,9 +91,6 @@
   margin-right: 0;
   width: 100%;
   clear: both;
-  /* 2022.01.19 font change */
-  //font-family: 'Song Myung';
-  //font-family: $menufont;
   font-family: $menufont;
 
   .site-nav {

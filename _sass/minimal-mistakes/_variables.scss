@@ -10,13 +10,11 @@ $doc-font-size: 16 !default;
 
 /* paragraph indention */
 $paragraph-indent: false !default; // true, false (default)
-// $indent-var: 1.3em !default;
 $indent-var: 0.7lem !default;
 
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
 /* 2022.01.19 font change */
-//$sans-serif: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', "Mulish", "Pretendard", sans-serif !default;
 $sans-serif: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', "Montserrat", "Pretendard", "Merriweather", sans-serif !default;
 $monospace: "Fira Mono", "Pretendard", Monaco, Consolas, "Lucida Console", monospace !default;
 
@@ -24,7 +22,6 @@ $monospace: "Fira Mono", "Pretendard", Monaco, Consolas, "Lucida Console", monos
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
 $helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
-//$biorhyme: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', "BioRhyme", "Pretendard", sans-serif !default;
 $menufont: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', "Montserrat", "BioRhyme", "Pretendard", sans-serif !default;
 
 
@@ -53,15 +50,6 @@ $type-size-7: 0.6875em !default; // ~11px
 $type-size-8: 0.625em !default; // ~10px
 
 /* headline scale */
-/*
-$h-size-1: 1.563em !default; // ~25.008px
-$h-size-2: 1.25em !default; // ~20px
-$h-size-3: 1.125em !default; // ~18px
-$h-size-4: 1.0625em !default; // ~17px
-$h-size-5: 1.03125em !default; // ~16.5px
-$h-size-6: 1em !default; // ~16px
-*/
-
 $h-size-1: 1.563em !default; // ~25.008px
 $h-size-2: 1.45em !default; // ~20px
 $h-size-3: 1.225em !default; // ~18px
@@ -94,7 +82,6 @@ $warning-color: #d67f05 !default;
 $danger-color: #ee5f5b !default;
 $info-color: #3b9cba !default;
 $focus-color: $primary-color !default;
-// $active-color: mix(#fff, $primary-color, 80%) !default;
 // navigation background color
 $active-color: mix($primary-color, $background-color, 5%) !default;
 
@@ -166,8 +153,6 @@ $medium-wide: 900px !default;
 $large: 1024px !default;
 $x-large: 1280px !default;
 $max-width: $x-large !default;
-/* 2022.01.20 max-width 1280 to 1920 */
-//$max-width: 1920px !default;
 
 /*
    Grid
@@ -177,27 +162,10 @@ $left-sidebar-width-narrow: 240px !default;
 $left-sidebar-width: 280px !default;
 $left-sidebar-width-wide: 400px !default;
 
-// $left-sidebar-width-narrow: 100px !default;
-// $left-sidebar-width: 180px !default;
-// $left-sidebar-width-wide: 250px !default;
-
-
 /* changed right sidebar width 200 -> 240, 250 -> 280 */
 $right-sidebar-width-narrow: 240px !default;
 $right-sidebar-width: 280px !default;
 $right-sidebar-width-wide: 400px !default;
-
-// 2021.09.04
-// $right-sidebar-width-narrow: 200px !default;
-// $right-sidebar-width: 240px !default;
-// $right-sidebar-width-wide: 350px !default;
-
-
-
-   // $right-sidebar-width-narrow: 150px !default;
-   // $right-sidebar-width: 250px !default;
-   // $right-sidebar-width-wide: 350px !default;
-
 
 /*
    Other

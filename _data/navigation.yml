@@ -15,50 +15,20 @@ main:
   # - title: "Categories"
   #   url: /categories/
 
-
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
 categories:
-- title: "C/C++"
-  url: /categories/c-cpp/
-- title: "Python"
-  url: /categories/python/
-- title: "Algorithm"
-  url: /categories/algorithm/
-- title: "Web"
-  url: /categories/web/
-- title: "Git"
-  url: /categories/git/
-- title: "GitHub Blog"
-  url: /categories/github-blog/
-- title: "Machine Learning"
-  url: /categories/machine-learning/
-
-# - title: Basics
-#   children:
-#     - title: "C/C++"
-#       url: /categories/c-cpp/
-#     - title: "Algorithm"
-#       url: /categories/algorithm/
-#     - title: "Data Structure"
-#       url: /categories/data-structure/
-#     - title: "Python"
-#       url: /categories/python/
-#     - title: "Linux"
-#       url: /categories/linux/
-#     - title: "Git"
-#       url: /categories/git/
-
-# - title: Web
-#   children:
-#     - title: "HTML"
-#       url: /categories/html/
-#     - title: "CSS"
-#       url: /categories/css/
-
-# - title: Projects
-#   children:
-#     - title: "GitHub Blog"
-#       url: /categories/github-blog/
-#     - title: "Machine Learning"
-#       url: /categories/machine-learning/
+  - title: "C/C++"
+    url: /categories/c-cpp/
+  - title: "Python"
+    url: /categories/python/
+  - title: "Algorithm"
+    url: /categories/algorithm/
+  - title: "Web"
+    url: /categories/web/
+  - title: "Git"
+    url: /categories/git/
+  - title: "GitHub Blog"
+    url: /categories/github-blog/
+  - title: "Machine Learning"
+    url: /categories/machine-learning/

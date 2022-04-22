@@ -39,7 +39,7 @@ body {
 .page {
   @include breakpoint($large) {
     float: right;
-    // width: calc(100% - #{$right-sidebar-width-narrow});
+    
     width: calc(100% - #{$left-sidebar-width-narrow});
     padding-right: $right-sidebar-width-narrow;
     /* 2022.01.19 gap between sidebar and page */
@@ -47,7 +47,7 @@ body {
   }
 
   @include breakpoint($x-large) {
-    // width: calc(100% - #{$right-sidebar-width});
+    
     width: calc(100% - #{$left-sidebar-width});
     padding-right: $right-sidebar-width;
     /* 2022.01.19 gap between sidebar and page */
@@ -59,7 +59,6 @@ body {
     margin-top: 1em;
     padding-top: 1em;
     margin-left: 0;
-    /* 2022.01.31 About tab padding left */
     margin-right: 0;
     width: 100%;
     clear: both;
@@ -79,7 +78,6 @@ body {
 
 .page__title {
   margin-top: 0;
-  // line-height: 1;
   line-height: 1.5;
   font-size: $type-size-3;
 
@@ -95,15 +93,8 @@ body {
 }
 
 .page__content {
-  // line-height: 1.85;
   font-size: 0.9em;
   font-weight: normal;
-
-  // h2 {
-    // padding-bottom: 0.3em;
-    /* 2022.01.14 remove because of dark mode */
-    // border-bottom: 1px solid $border-color;
-  // }
 
   h1 {
     font-weight: bold;
@@ -126,11 +117,6 @@ body {
 		}
 	}
 
-  // p,
-  // li,
-  // dl {
-  // }
-
   /* paragraph indents */
   p {
     /* sibling indentation*/
@@ -148,7 +134,6 @@ body {
     }
 
     &:hover {
-      // text-decoration: underline;
       color: rgba(#000, 0.7);
       img {
         box-shadow: 0 0 10px rgba(#000, 0.3);
@@ -470,7 +455,6 @@ body {
 
 .comment {
   @include clearfix();
-  // margin: 1em 0;
   padding-top : 2em;
 
   &:not(:last-child) {
@@ -541,12 +525,10 @@ body {
 
   @include breakpoint($large) {
     float: right;
-    // width: calc(100% - #{$right-sidebar-width-narrow});
     width: calc(100% - #{$left-sidebar-width-narrow});
   }
 
   @include breakpoint($x-large) {
-    // width: calc(100% - #{$right-sidebar-width});
     width: calc(100% - #{$left-sidebar-width});
   }
 
@@ -595,7 +577,6 @@ body {
     .page__title {
       margin-top: 0;
       margin-bottom: 0.5em;
-      // line-height: 1;
       line-height: 1.5;
       font-size: $type-size-2;
       text-align: center;

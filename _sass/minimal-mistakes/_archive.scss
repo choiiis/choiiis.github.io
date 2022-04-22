@@ -5,18 +5,15 @@
 .archive {
   margin-top: 1em;
   margin-bottom: 2em;
-  //padding-left: 0.5em;
   padding-left: 1.5em;
 
   @include breakpoint($large) {
     float: right;
-    // width: calc(100% - #{$right-sidebar-width-narrow});
     width: calc(100% - #{$left-sidebar-width-narrow});
     padding-right: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
-    // width: calc(100% - #{$right-sidebar-width});
     width: calc(100% - #{$left-sidebar-width});
     padding-right: $right-sidebar-width;
   }
@@ -37,11 +34,8 @@
 }
 
 .archive__subtitle {
-  // margin: 1.414em 0 0.5em;
   margin: 1em 0 0.5em;
   padding-bottom: 0.5em;
-  /* 2022.01.19 font change */
-  //font-family: 'Song Myung';
   font-family: $menufont;
   font-size: $type-size-4;
   color: $muted-text-color;
@@ -53,14 +47,10 @@
 }
 
 .archive__item-title {
-  /* 2022.01.26 gap between post items */
   margin-top: 1.3em;
   margin-bottom: 0.25em;
   font-family: $sans-serif;
-  // added
   font-size: ($h-size-4 + $h-size-3) / 2;
-  /* 2022.01.23 post title font weight change */
-  // font-weight: 700;
   font-weight: 500;
   line-height: initial;
   overflow: hidden;
@@ -95,10 +85,7 @@
 .archive__item-excerpt {
   margin-top: 0;
   font-size: 0.85em;
-  /* 2022.01.23 post title font weight change */
-  // font-weight: 600;
   font-weight: 400;
-  // color: rgb(54, 54, 54);
 
   & + p {
     text-indent: 0;
@@ -166,12 +153,10 @@
     /* extend grid elements to the right */
 
     @include breakpoint($large) {
-      // margin-right: -1 * $right-sidebar-width-narrow;
       margin-right: -1 * $left-sidebar-width-narrow;
     }
 
     @include breakpoint($x-large) {
-      // margin-right: -1 * $right-sidebar-width;
       margin-right: -1 * $left-sidebar-width;
     }
   }
@@ -284,7 +269,6 @@
   @include breakpoint($small) {
     float: left;
     margin-bottom: 0;
-    // width: span(4 of 12);
     width: span(12 of 12);
 
     &:nth-child(3n + 1) {
@@ -311,7 +295,6 @@
   .archive__item-body {
     padding-left: gutter(1 of 12);
     padding-right: gutter(1 of 12);
-    // margin-left: 5em;
   }
 
   a.btn::before {
