@@ -44,7 +44,7 @@ analytics:
 
 1. utterances 셋팅
 
-- [utterances](github.com/apps/utterances) 접속
+- [utterances](https://github.com/apps/utterances) 접속
 - repository 선택 후 install
 - 이 Jekyll Theme에서는 셋팅 방법이 다름.
 - Enable Utterances script를 기억
