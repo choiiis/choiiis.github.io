@@ -40,6 +40,39 @@ analytics:
 - naverd967c~~~.html
 - robots.txt
 
+**Comment 설정**  
+
+1. utterances 셋팅
+
+- [utterances](github.com/apps/utterances) 접속
+- repository 선택 후 install
+- 이 Jekyll Theme에서는 셋팅 방법이 다름.
+- Enable Utterances script를 기억
+
+2. _config.yml 수정
+
+```yml
+# 1번의 script에서 issue_term과 theme을 아래와 같이 작성
+# 1번의 script와 _config.yml이 다를 경우만 수정
+comments:
+  provider: "utterances"
+  utterances: 
+    theme: "github-light" # "github-dark"
+    issue_term: "pathname" # pathname은 post.md 파일 이름으로 연결됨
+```
+
+3. 본인 github에 public repo 생성 (repo명 : blog-comments)
+
+4. _includes/comments-providers/utterances.html 수정
+
+```html
+var script = document.createElement('script');
+script.setAttribute('src', 'https://utteranc.es/client.js');
+script.setAttribute('repo', '본인아이디/blog-comments'); # 3에서 만들었던 레포지토리로 수정
+```
+
+5. comment 기능은 issue를 tracking하는 것이기 때문에 issue 관련 permission이 있다면 허용
+
 ---
 
 ### 개발 기록
