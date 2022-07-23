@@ -18,8 +18,10 @@ main:
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
 categories:
-  - title: "C/C++"
-    url: /categories/c-cpp/
+  - title: "Deep Learning"
+    url: /categories/deep-learning
+  #- title: "C/C++"
+  #  url: /categories/c-cpp/
   #- title: "Python"
   #  url: /categories/python/
   #- title: "Algorithm"
