@@ -16,14 +16,14 @@ minimal_mistakes_skin: "plum" #"plum", "default" "air", "aqua", "contrast", "dar
 
 # Site Settings
 locale: "ko-KR" #"en-US"
-title: "choiiis Devlog"
+title: "laeto Devlog"
 title_separator: "&#124;"
 subtitle: # site tagline that appears below site title in masthead
-name: "choiiis"
-description: "choiiis DevLog"
-url: "https://choiiis.github.io"
+name: "laeto"
+description: "laeto DevLog"
+url: "https://laetokang.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: "choiiis/choiiis.github.io"
+repository: "laetokang/laetokang.github.io"
 teaser: #
 # logo                     : "/assets/images/meee.svg"
 #"/assets/images/monster.png"
@@ -95,7 +95,7 @@ analytics:
 
 # Site Author
 author:
-  name: "choiiis"
+  name: "laetokang"
   avatar: "/assets/images/meee.svg"
   #   bio              : "Hamppiness!"
   # location         : "Seoul, Korea"
