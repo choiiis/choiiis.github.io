@@ -1,4 +1,4 @@
-## 🦥 `choiiis Devlog`
+## 🦥 `Laetokang Devlog`
 
 📎 **블로그 바로 가기**
 
