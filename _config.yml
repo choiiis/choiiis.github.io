@@ -24,8 +24,7 @@ description: "공부 기록용 블로그"
 url: "https://laetokang.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 ###########################################################22.07.23 만약 댓글 기능이 안된다면 여기를 볼 것 !
-#repository: "laetokang/laetokang.github.io"
-repository: "laetokang/comments"
+repository: "laetokang/laetokang.github.io"
 teaser: #
 # logo                     : "/assets/images/meee.svg"
 #"/assets/images/monster.png"
