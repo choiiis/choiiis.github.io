@@ -17,7 +17,7 @@ comments: false
         </li>
         <li>
           <a href="https://github.com/laetokang" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">  https://github.com/choiiis</span>
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">  https://github.com/laetokang</span>
           </a>
         </li>
         <li>
@@ -27,8 +27,8 @@ comments: false
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/choiiis.dev/" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">  https://www.instagram.com/choiiis.dev/</span>
+          <a href="https://www.instagram.com/dev._bz/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">  https://www.instagram.com/dev._bz/</span>
           </a>
         </li>
     </ul>
