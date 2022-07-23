@@ -20,10 +20,12 @@ title: "Laeto Devlog"
 title_separator: "&#124;"
 subtitle: # site tagline that appears below site title in masthead
 name: "laeto"
-description: "laeto DevLog"
+description: "공부 기록용 블로그"
 url: "https://laetokang.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: "laetokang/laetokang.github.io"
+###########################################################22.07.23 만약 댓글 기능이 안된다면 여기를 볼 것 !
+#repository: "laetokang/laetokang.github.io"
+repository: "laetokang/comments"
 teaser: #
 # logo                     : "/assets/images/meee.svg"
 #"/assets/images/monster.png"
@@ -65,10 +67,11 @@ google:
   search_engine_id: # YOUR_SEARCH_ENGINE_ID
   instant_search: # false (default), true
 # SEO Related
-google_site_verification: "LKDXdTbkqfYcDLaxd7-n3VyPtaYjoDXQ6axWfVew_VQ"
+##############################################################################22.07.23 여기 google_site_verification, naver_site_verification 주석처리
+#google_site_verification: "LKDXdTbkqfYcDLaxd7-n3VyPtaYjoDXQ6axWfVew_VQ" 
 bing_site_verification:
 yandex_site_verification:
-naver_site_verification: "adf9ff31fdd5483be60c146ecf49f0bb5ffc89e7"
+#naver_site_verification: "adf9ff31fdd5483be60c146ecf49f0bb5ffc89e7"
 
 # Social Sharing
 twitter:
@@ -86,11 +89,12 @@ social:
   links: # An array of links to social media profiles
 
 # Analytics
+#########################################################################22.07.23 여기 tracking_id 주석처리
 analytics:
   provider: "google-gtag"
   # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id: "G-RB5HCLB3C2"
+    #tracking_id: "G-RB5HCLB3C2"
     anonymize_ip: # true, false (default)
 
 # Site Author
