@@ -1,5 +1,5 @@
 ---
-title: "Hi all! I'm choiiis👋🏻"
+title: "Hi all! I'm Laeto Kang👋🏻"
 permalink: /about/
 layout: single
 comments: false
@@ -16,14 +16,14 @@ comments: false
           <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">  Seoul, Korea</span>
         </li>
         <li>
-          <a href="https://github.com/choiiis" itemprop="sameAs" rel="nofollow noopener noreferrer">
+          <a href="https://github.com/laetokang" itemprop="sameAs" rel="nofollow noopener noreferrer">
             <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">  https://github.com/choiiis</span>
           </a>
         </li>
         <li>
-          <a href="mailto:bemychoiiis@gmail.com">
-            <meta itemprop="email" content="bemychoiiis@gmail.com" />
-            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">  bemychoiiis@gmail.com</span>
+          <a href="mailto:kbh0287@gmail.com">
+            <meta itemprop="email" content="kbh0287@gmail.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">  kbh0287@gmail.com</span>
           </a>
         </li>
         <li>
