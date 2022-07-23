@@ -2,7 +2,7 @@
 
 📎 **블로그 바로 가기**
 
-[`https://choiiis.github.io/`](https://choiiis.github.io/)
+[`https://laetokang.github.io/`](https://laetokang.github.io/)
 
 ---
 
