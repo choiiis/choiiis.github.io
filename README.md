@@ -6,13 +6,25 @@
 
 ---
 
+### 2022.07.28 업데이트 ☑
+
+fork 하시는 분들이 점점 많아져서, 템플릿 형식으로 변경해서 새로 repo를 생성했습니다!  
+좀더 편하게 수정해서 사용하실 수 있게 만들어놓았으니 이 repo 말고 아래 링크를 클릭하셔서 해당 repo를 fork 해주세요!
+
+[https://github.com/choiiis/minimal-mistakes-choiiis-customized](https://github.com/choiiis/minimal-mistakes-choiiis-customized)
+
+README.md에 세팅 관련 내용도 함께 올려놓았으니 참고하세용
+
+---
+
 ### fork 주의사항 ★
 
-가끔 fork해서 사용하시는 분들이 있는데 편하게 사용하셔도 됩니다!  
-나름 열심히 만들었으니.. fork 하실 때 `star` 하나만 눌러주시면 뿌듯할 것 같네요 :)
+[minimal-mistakes-choiiis-customized](minimal-mistakes-choiiis-customized) repo를 fork 하시는 것을 매우 권장합니다...... (제가 불편해요😂)
 
-**아래 사항들을 꼭 변경해주셔야 저의 analytics에 반영이 되지 않습니다!!!**  
+하지만 꼭 이 repo를 fork 하시고 싶으시다면 **아래 사항들을 변경해주셔야 저의 analytics에 반영이 되지 않습니다!!!**  
 (제 블로그 구글 analytics에 다른 분들 게시물이 가끔 보이는데... 서로 민망하잖아요ㅎㅎ)
+
+그리고 fork 하실 때 `star` 하나만 눌러주세용 :)
 
 1. \_config.yml 변경
 
@@ -75,7 +87,7 @@ var script = document.createElement('script'); script.setAttribute('src',
 
 ---
 
-### 개발 기록
+#### 개발 기록
 
 [VER1.0]
 ![choiiis github blog main](/assets/images/posts_img/readme/blog-main-ver1.png)
