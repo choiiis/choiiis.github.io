@@ -1,6 +1,6 @@
 ---
 title: "GitHub Minimal Mistakes 커스텀 템플릿 업로드"
-excerpt: " 깃허브 블로그 대공사 여정"
+excerpt: "블로그 커스텀 테마 fork를 위한 repo 생성하기"
 
 categories:
   - GitHub Blog
@@ -12,8 +12,8 @@ permalink: /github-blog/minimal-mistakes-customized-repo/
 toc: true
 toc_sticky: true
 
-date: 2022-07-28
-last_modified_at: 2022-07-28
+date: 2022-07-27
+last_modified_at: 2022-07-27
 ---
 
 아주우우 오랜만에 포스팅을 해본다.  
