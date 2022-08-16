@@ -12,8 +12,8 @@ permalink: /python/how-to-implement-permutation/
 toc: true
 toc_sticky: true
 
-date: 2022-08-17
-last_modified_at: 2022-08-17
+date: 2022-08-16
+last_modified_at: 2022-08-16
 ---
 
 Python으로 재귀함수를 이용해서 n개 원소의 순열을 구해보자.  
